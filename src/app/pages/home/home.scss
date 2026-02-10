@@ -1,0 +1,57 @@
+.hero {
+  background-image: linear-gradient(135deg, var(--novita-blue) 0%, #00d2ff 100%);
+
+  .title {
+    font-weight: 800;
+    line-height: 1.2;
+    color: #ffffff !important;
+  }
+
+  .subtitle {
+    color: rgba(255, 255, 255, 0.9) !important;
+  }
+
+  .glass-button-primary {
+    background: #ffffff;
+    color: var(--novita-blue) !important;
+    
+    &:hover {
+      background: rgba(255, 255, 255, 0.9);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  .glass-button-secondary {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.4);
+    color: #ffffff !important;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.3);
+    }
+  }
+}
+
+.section {
+  padding: 5rem 1.5rem;
+}
+
+.content ul {
+  list-style: none;
+  margin-left: 0;
+
+  li {
+    margin-bottom: 1.5rem;
+    padding-left: 2rem;
+    position: relative;
+
+    &::before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      color: var(--novita-blue);
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+  }
+}

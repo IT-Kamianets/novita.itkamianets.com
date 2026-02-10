@@ -1,0 +1,10 @@
+.navbar-item {
+  &.is-active {
+    color: var(--novita-blue);
+    font-weight: bold;
+  }
+}
+
+.navbar-brand .title {
+  letter-spacing: 2px;
+}

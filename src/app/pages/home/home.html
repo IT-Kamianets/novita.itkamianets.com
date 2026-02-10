@@ -1,0 +1,80 @@
+<section class="hero is-medium glass-hero">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-vcentered">
+        <div class="column is-6">
+          <h1 class="title is-1 glass-text">
+            Подбайте про свою шкіру <br>разом з Novita
+          </h1>
+          <p class="subtitle is-4 mt-4 glass-text-secondary">
+            Професійні рішення для догляду за шкірою на кожному етапі вашої щоденної рутини. Очищення, тонізація та захист.
+          </p>
+          <div class="buttons mt-5">
+            <a class="button glass-button-primary is-large" routerLink="/products">
+              Переглянути товари
+            </a>
+            <a class="button glass-button-secondary is-large" href="https://www.instagram.com/novitaua/" target="_blank">
+              Ми в Instagram
+            </a>
+          </div>
+        </div>
+        <div class="column is-6 has-text-centered">
+          <img src="https://novita.ua/data/product/card/_max_160x285/e1eddcc8/5fef938a3f7746db971de408caf6ea5c_1209x1379.png" alt="Novita Products" class="floating-image" style="max-height: 500px; width: auto;">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section glass-section">
+  <div class="container">
+    <h2 class="title is-2 has-text-centered mb-6 glass-text">Наша продукція</h2>
+    <div class="columns is-multiline">
+      <div class="column is-4" *ngFor="let product of products">
+        <app-product-card [product]="product"></app-product-card>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section glass-section-alt">
+  <div class="container">
+    <div class="columns is-vcentered">
+      <div class="column is-6">
+        <h2 class="title is-3 glass-text">Чому обирають Novita?</h2>
+        <div class="content glass-text-secondary" style="color: var(--text-primary) !important;">
+          <ul>
+            <li>
+              <strong class="has-text-novita-blue">Ефект Anti-Pollution:</strong> Наші продукти створені для захисту вашої шкіри від шкідливих факторів навколишнього середовища та забезпечення глибокого очищення.
+            </li>
+            <li>
+              <strong class="has-text-novita-blue">Пребіотик Biolin:</strong> Спеціальна лінія для інтимної гігієни з пребіотиками для підтримки вашого природного балансу.
+            </li>
+            <li>
+              <strong class="has-text-novita-blue">Натуральні матеріали:</strong> 100% натуральна бавовна для наших дисків та паличок, що забезпечує найм'якший дотик.
+            </li>
+            <li>
+              <strong class="has-text-novita-blue">Комплексний догляд:</strong> Ми пропонуємо рішення для кожного етапу: зняття макіяжу, очищення та тонізація.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="column is-6">
+        <img src="https://novita.ua/data/product/card/_max_160x285/43c59de2/e7404932c6b24941bd51fb047258954b_1502x1764.png" alt="Про Novita" class="image is-rounded glass-card" style="max-height: 450px; margin: 0 auto; display: block;">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section glass-section">
+  <div class="container has-text-centered">
+    <h2 class="title is-3 mb-5 glass-text">Слідкуйте за нами в Instagram</h2>
+    <p class="subtitle glass-text-secondary mb-6">Приєднуйтесь до нашої спільноти, щоб дізнаватися про останні новини та поради з краси.</p>
+    
+    <app-instagram-feed></app-instagram-feed>
+
+    <a href="https://www.instagram.com/novitaua/" class="button glass-button-primary is-large mt-6" target="_blank">
+      @novitaua
+    </a>
+  </div>
+</section>

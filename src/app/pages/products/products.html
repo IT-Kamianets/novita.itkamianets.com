@@ -1,0 +1,23 @@
+<section class="section mt-6 glass-section">
+  <div class="container">
+    <h1 class="title is-1 glass-text has-text-centered mb-6">Наша продукція</h1>
+
+    <div class="tabs is-centered is-toggle is-toggle-rounded glass-tabs">
+      <ul>
+        <li *ngFor="let cat of categories" [class.is-active]="selectedCategory === cat">
+          <a (click)="filterByCategory(cat)" class="glass-text">{{ cat }}</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="columns is-multiline mt-5">
+      <div class="column is-4" *ngFor="let product of filteredProducts">
+        <app-product-card [product]="product"></app-product-card>
+      </div>
+    </div>
+
+    <div *ngIf="filteredProducts.length === 0" class="has-text-centered mt-6">
+      <p class="subtitle glass-text-secondary">Товарів у цій категорії не знайдено.</p>
+    </div>
+  </div>
+</section>

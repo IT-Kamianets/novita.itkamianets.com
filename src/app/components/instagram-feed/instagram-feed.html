@@ -1,0 +1,11 @@
+<div class="instagram-grid">
+  <div *ngFor="let post of posts" class="instagram-item glass-card">
+    <img [src]="post.url" alt="Instagram Post" class="post-image">
+    <div class="post-overlay">
+      <div class="post-info glass-text">
+        <span><i class="fas fa-heart"></i> {{ post.likes }}</span>
+        <span><i class="fas fa-comment"></i> {{ post.comments }}</span>
+      </div>
+    </div>
+  </div>
+</div>
