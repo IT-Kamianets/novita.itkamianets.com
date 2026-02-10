@@ -45,7 +45,7 @@ jobs:
               run: |
                   git config --global user.name "github-actions[bot]"
                   git config --global user.email "github-actions[bot]@users.noreply.github.com"
-                  cd dist/theme-bulma/browser
+                  cd dist/novita.itkamianets.com/browser
                   git init  # Initialize a new git repository
                   git add --all .  # Add all changes
                   git commit -m "Deploy to GitHub Pages"
