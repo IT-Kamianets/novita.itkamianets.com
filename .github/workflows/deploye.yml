@@ -28,7 +28,7 @@ jobs:
               run: npm run build
 
             - name: Copy CNAME file
-              run: cp CNAME dist/theme-bulma/browser/
+              run: cp CNAME dist/novita.itkamianets.com/browser/
 
             - name: Set up SSH
               env:
