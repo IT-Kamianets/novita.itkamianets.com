@@ -5,6 +5,7 @@ export interface Product {
   description: string;
   image: string;
   features?: string[];
+  purchaseUrl?: string;
 }
 
 export const CATEGORIES = [
