@@ -1,0 +1,45 @@
+.about-card-listener {
+  height: 100%;
+  perspective: 1000px;
+  display: block;
+  position: relative;
+  z-index: 1;
+  background: transparent; // Ensure it has a surface to catch events
+
+  &:hover {
+    z-index: 10; // Bring the whole listener to front
+
+    .about-card {
+      transition: transform 0.1s ease-out, box-shadow 0.3s ease;
+      transform: rotateX(var(--rotateX, 0deg)) rotateY(var(--rotateY, 0deg)) scale3d(1.02, 1.02, 1.02) !important;
+      box-shadow: 0 25px 50px rgba(0,0,0,0.2) !important;
+
+      .card-image img {
+        transform: translateZ(40px);
+      }
+    }
+  }
+}
+
+.about-card {
+  transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1), box-shadow 0.3s ease;
+  transform-style: preserve-3d;
+  will-change: transform;
+  pointer-events: none;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+
+  .card-image {
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    img {
+      transition: transform 0.3s ease;
+      backface-visibility: hidden;
+    }
+  }
+
+  .card-content {
+    transform: translateZ(20px);
+    backface-visibility: hidden;
+  }
+}

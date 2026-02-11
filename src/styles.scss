@@ -128,21 +128,52 @@ body {
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-bottom: 1px solid var(--glass-border);
-  height: 4.5rem;
+  min-height: 4.5rem;
   display: flex;
   align-items: center;
 
+  .navbar-brand {
+    .navbar-item:hover {
+      background: transparent !important;
+    }
+  }
+
+  .navbar-menu {
+    background: transparent; // Fix black background on mobile
+    box-shadow: none;
+    padding: 0;
+
+    @media screen and (max-width: 1023px) {
+      background: rgba(255, 255, 255, 0.95); // Slightly more opaque on mobile for readability
+      backdrop-filter: blur(10px);
+      position: absolute;
+      width: 100%;
+      left: 0;
+    }
+  }
+
   .navbar-item {
     font-weight: 500;
-    transition: color 0.2s ease;
+    transition: all 0.2s ease;
+    background: transparent !important;
     
-    &:hover {
+    &:hover, &:focus, &:focus-within {
       background: transparent !important;
       color: var(--novita-blue) !important;
     }
 
     &.is-active {
       color: var(--novita-blue) !important;
+      background: transparent !important;
+    }
+  }
+
+  .navbar-burger {
+    height: 4.5rem;
+    width: 4.5rem;
+    color: var(--text-primary);
+    
+    &:hover {
       background: transparent !important;
     }
   }

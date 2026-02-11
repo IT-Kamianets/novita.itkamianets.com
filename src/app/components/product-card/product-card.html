@@ -1,26 +1,28 @@
-<div class="card product-card glass-card">
-  <div class="card-image">
-    <figure class="image is-4by3">
-      <img [src]="product.image" [alt]="product.name" style="object-fit: contain; padding: 1.5rem;">
-    </figure>
-  </div>
-  <div class="card-content">
-    <div class="media">
-      <div class="media-content">
-        <p class="subtitle is-6 glass-text-secondary">{{ product.category }}</p>
-        <p class="title is-5 glass-text">{{ product.name }}</p>
-      </div>
+<div class="product-card-listener" (mousemove)="onMouseMove($event)" (mouseleave)="onMouseLeave()">
+  <div #card class="card product-card glass-card">
+    <div class="card-image">
+      <figure class="image is-4by3">
+        <img [src]="product.image" [alt]="product.name" style="object-fit: contain; padding: 1.5rem;">
+      </figure>
     </div>
+    <div class="card-content">
+      <div class="media">
+        <div class="media-content">
+          <p class="subtitle is-6 glass-text-secondary">{{ product.category }}</p>
+          <p class="title is-5 glass-text">{{ product.name }}</p>
+        </div>
+      </div>
 
-    <div class="content glass-text-secondary">
-      {{ product.description }}
-      <br>
-      <div class="tags mt-3">
-        <span *ngFor="let feature of product.features" class="tag is-white is-rounded glass-text-secondary" style="border: 1px solid var(--glass-border);">{{ feature }}</span>
+      <div class="content glass-text-secondary">
+        {{ product.description }}
+        <br>
+        <div class="tags mt-3">
+          <span *ngFor="let feature of product.features" class="tag is-white is-rounded glass-text-secondary" style="border: 1px solid var(--glass-border);">{{ feature }}</span>
+        </div>
       </div>
     </div>
+    <footer class="card-footer" style="border-top: 1px solid var(--glass-border);">
+      <a href="#" class="card-footer-item glass-text" style="color: var(--novita-blue) !important; font-weight: 500;">Детальніше</a>
+    </footer>
   </div>
-  <footer class="card-footer" style="border-top: 1px solid var(--glass-border);">
-    <a href="#" class="card-footer-item glass-text" style="color: var(--novita-blue) !important; font-weight: 500;">Детальніше</a>
-  </footer>
 </div>
