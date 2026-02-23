@@ -1,76 +1,46 @@
-<section class="section mt-6 glass-section">
+<section class="section contacts-section glass-section">
   <div class="container">
     <h1 class="title is-1 glass-text has-text-centered mb-6">Зв'яжіться з нами</h1>
 
-    <div class="columns">
-      <div class="column is-6">
-        <div class="box glass-card">
-          <h2 class="title is-4 glass-text">Напишіть нам</h2>
-          <form (ngSubmit)="onSubmit()" #contactForm="ngForm">
-            <div class="field">
-              <label class="label glass-text">Ім'я</label>
-              <div class="control">
-                <input class="input glass-input" type="text" name="name" [(ngModel)]="contactData.name" required placeholder="Ваше ім'я">
-              </div>
-            </div>
-
-            <div class="field">
-              <label class="label glass-text">Email</label>
-              <div class="control">
-                <input class="input glass-input" type="email" name="email" [(ngModel)]="contactData.email" required placeholder="Ваш Email">
-              </div>
-            </div>
-
-            <div class="field">
-              <label class="label glass-text">Повідомлення</label>
-              <div class="control">
-                <textarea class="textarea glass-input" name="message" [(ngModel)]="contactData.message" required placeholder="Як ми можемо вам допомогти?"></textarea>
-              </div>
-            </div>
-
-            <div class="field">
-              <div class="control">
-                <button type="submit" class="button glass-button-primary is-fullwidth" [disabled]="!contactForm.form.valid">Надіслати</button>
-              </div>
-            </div>
-          </form>
-
-          <div *ngIf="submitted" class="notification is-success mt-4 glass-card" style="background: rgba(72, 199, 142, 0.2); backdrop-filter: blur(10px); border: 1px solid rgba(72, 199, 142, 0.3); color: #257953;">
-            Дякуємо! Ми зв'яжемося з вами найближчим часом.
-          </div>
-        </div>
-      </div>
-
-      <div class="column is-6">
-        <div class="content glass-text-secondary">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content glass-text-secondary has-text-centered">
           <h2 class="title is-4 glass-text">Наші контакти</h2>
           <p>Ми завжди відкриті до спілкування, пропозицій та запитань щодо якості продукції.</p>
           
-          <p>
-            <strong class="glass-text">Центральний офіс (Корпорація «Біосфера»):</strong><br>
-            49040, Україна, м. Дніпро,<br>
-            Запорізьке шосе, 37
-          </p>
+          <div class="columns is-multiline mt-5">
+            <div class="column is-6">
+              <p>
+                <strong class="glass-text">Центральний офіс (Корпорація «Біосфера»):</strong><br>
+                49040, Україна, м. Дніпро,<br>
+                Запорізьке шосе, 37
+              </p>
+            </div>
+            <div class="column is-6">
+              <p>
+                <strong class="glass-text">Гаряча лінія:</strong><br>
+                <a href="tel:0800300139" class="glass-text" style="color: var(--novita-blue) !important;">0 800 300 139</a><br>
+                (безкоштовно по Україні)
+              </p>
+            </div>
+            <div class="column is-6">
+              <p>
+                <strong class="glass-text">Email:</strong><br>
+                <a href="mailto:office_ua@biosphere-corp.com" class="glass-text" style="color: var(--novita-blue) !important;">office_ua@biosphere-corp.com</a>
+              </p>
+            </div>
+            <div class="column is-6">
+              <p>
+                <strong class="glass-text">Соціальні мережі:</strong><br>
+                <a href="https://www.instagram.com/novitaua/" target="_blank" class="glass-text" style="color: var(--novita-blue) !important;">
+                  <span class="icon"><i class="fab fa-instagram"></i></span> @novitaua
+                </a>
+              </p>
+            </div>
+          </div>
 
-          <p>
-            <strong class="glass-text">Гаряча лінія:</strong><br>
-            <a href="tel:0800300139" class="glass-text" style="color: var(--novita-blue) !important;">0 800 300 139</a> (безкоштовно по Україні)
-          </p>
-
-          <p>
-            <strong class="glass-text">Email:</strong><br>
-            <a href="mailto:office_ua@biosphere-corp.com" class="glass-text" style="color: var(--novita-blue) !important;">office_ua@biosphere-corp.com</a>
-          </p>
-
-          <p>
-            <strong class="glass-text">Соціальні мережі:</strong><br>
-            <a href="https://www.instagram.com/novitaua/" target="_blank" class="glass-text" style="color: var(--novita-blue) !important;">
-              <span class="icon"><i class="fab fa-instagram"></i></span> @novitaua
-            </a>
-          </p>
-
-          <div class="mt-5">
-             <div class="glass-card p-4">
+          <div class="mt-5 is-flex is-justify-content-center">
+             <div class="glass-card p-4" style="max-width: 500px;">
                <p class="is-size-7">Ми дбаємо про вашу безпеку та якість кожного виробу. Ваші відгуки допомагають нам ставати кращими.</p>
              </div>
           </div>

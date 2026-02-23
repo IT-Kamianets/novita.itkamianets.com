@@ -2,27 +2,24 @@
   <div #card class="card product-card glass-card">
     <div class="card-image">
       <figure class="image is-4by3">
-        <img [src]="product.image" [alt]="product.name" style="object-fit: contain; padding: 1.5rem;">
+        <img [src]="product.image" [alt]="product.name" style="object-fit: contain; padding: 1rem;">
       </figure>
     </div>
     <div class="card-content">
       <div class="media">
         <div class="media-content">
-          <p class="subtitle is-6 glass-text-secondary">{{ product.category }}</p>
-          <p class="title is-5 glass-text">{{ product.name }}</p>
+          <p class="subtitle is-7 glass-text-secondary" style="font-size: 0.75rem; margin-bottom: 0.5rem;">{{ product.category }}</p>
+          <p class="title is-6 glass-text" style="font-size: 1rem; line-height: 1.2;">{{ product.name }}</p>
         </div>
       </div>
 
-      <div class="content glass-text-secondary">
+      <div class="content glass-text-secondary" style="font-size: 0.85rem;">
         {{ product.description }}
         <br>
-        <div class="tags mt-3">
-          <span *ngFor="let feature of product.features" class="tag is-white is-rounded glass-text-secondary" style="border: 1px solid var(--glass-border);">{{ feature }}</span>
+        <div class="tags mt-2">
+          <span *ngFor="let feature of product.features" class="tag is-white is-rounded is-small glass-text-secondary" style="border: 1px solid var(--glass-border); font-size: 0.7rem;">{{ feature }}</span>
         </div>
       </div>
     </div>
-    <footer class="card-footer" style="border-top: 1px solid var(--glass-border);">
-      <a [href]="product.purchaseUrl || '#'" target="_blank" rel="noopener" class="card-footer-item glass-text" style="color: var(--novita-blue) !important; font-weight: 500;">Купити</a>
-    </footer>
   </div>
 </div>

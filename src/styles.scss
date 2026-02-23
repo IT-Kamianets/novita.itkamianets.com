@@ -1,6 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 @import 'bulma/css/bulma.css';
 
+html.has-navbar-fixed-top {
+  background-color: var(--bg-color);
+  @media screen and (max-width: 1023px) {
+    padding-top: 0 !important;
+  }
+}
+
 :root {
   --novita-blue: #0071e3; // Apple-like blue
   --novita-blue-gradient: linear-gradient(135deg, #0071e3 0%, #00d2ff 100%);
@@ -123,6 +130,22 @@ body {
   100% { transform: translateY(0px); }
 }
 
+.main-content {
+  padding-top: 4.5rem;
+  min-height: calc(100vh - 4.5rem);
+
+  @media screen and (max-width: 1023px) {
+    padding-top: 0;
+    padding-bottom: 4.5rem; // Padding for bottom navbar
+  }
+}
+
+.products-section, .contacts-section {
+  @media screen and (min-width: 1024px) {
+    margin-top: 3.5rem;
+  }
+}
+
 .glass-navbar {
   background: rgba(255, 255, 255, 0.7) !important;
   backdrop-filter: blur(20px);
@@ -131,6 +154,19 @@ body {
   min-height: 4.5rem;
   display: flex;
   align-items: center;
+
+  @media screen and (max-width: 1023px) {
+    &.is-fixed-top {
+      top: auto !important;
+      bottom: 0 !important;
+    }
+    bottom: 0 !important;
+    border-bottom: none;
+    border-top: 1px solid var(--glass-border);
+    position: fixed !important;
+    width: 100%;
+    z-index: 30;
+  }
 
   .navbar-brand {
     .navbar-item:hover {
@@ -149,6 +185,9 @@ body {
       position: absolute;
       width: 100%;
       left: 0;
+      bottom: 100%; // Open upwards
+      border-top: 1px solid var(--glass-border);
+      border-bottom: none;
     }
   }
 
