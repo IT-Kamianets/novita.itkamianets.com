@@ -1,0 +1,69 @@
+{
+  "NAV": {
+    "HOME": "Home",
+    "PRODUCTS": "Products",
+    "ABOUT": "About Us",
+    "CONTACTS": "Contacts"
+  },
+  "FOOTER": {
+    "DESCRIPTION": "Professional skincare for your daily routine. We combine quality, innovation, and care for your skin.",
+    "QUICK_LINKS": "Quick Links",
+    "FOLLOW_US": "Follow Us",
+    "RIGHTS_RESERVED": "All rights reserved."
+  },
+  "HOME": {
+    "HERO_TITLE": "Take Care of Your Skin <br>with Novita",
+    "HERO_SUBTITLE": "Professional skincare solutions for every stage of your daily routine. Cleansing, toning, and protection.",
+    "HERO_BUTTON_PRODUCTS": "View Products",
+    "HERO_BUTTON_INSTA": "Follow on Instagram",
+    "OUR_PRODUCTS_TITLE": "Our Products",
+    "WHY_CHOOSE_TITLE": "Why Choose Novita?",
+    "WHY_CHOOSE_LI1_TITLE": "Anti-Pollution Effect:",
+    "WHY_CHOOSE_LI1_TEXT": " Our products are designed to protect your skin from environmental factors and provide deep cleansing.",
+    "WHY_CHOOSE_LI2_TITLE": "Biolin Prebiotic:",
+    "WHY_CHOOSE_LI2_TEXT": " Special intimate hygiene line with prebiotics to support your natural balance.",
+    "WHY_CHOOSE_LI3_TITLE": "Natural Materials:",
+    "WHY_CHOOSE_LI3_TEXT": " 100% natural cotton for our pads and buds, ensuring the softest touch.",
+    "WHY_CHOOSE_LI4_TITLE": "Complex Care:",
+    "WHY_CHOOSE_LI4_TEXT": " We offer solutions for every stage: makeup removal, cleansing, and toning.",
+    "INSTA_TITLE": "Follow us on Instagram",
+    "INSTA_SUBTITLE": "Join our community to stay updated on the latest news and beauty tips."
+  },
+  "ABOUT": {
+    "HERO_TITLE": "Novita: Philosophy of Care",
+    "HERO_SUBTITLE": "We create products that care for your natural beauty in today's world.",
+    "PILLAR1_TITLE": "Anti-pollution Protection",
+    "PILLAR1_TEXT": "A unique series of products developed for city dwellers. Deeply cleanses pores and creates an invisible barrier against toxins and smog.",
+    "PILLAR2_TITLE": "Natural Cotton",
+    "PILLAR2_TEXT": "We use only 100% natural high-quality cotton. Our pads and buds provide the gentlest touch without causing irritation.",
+    "PILLAR3_TITLE": "Biolin Prebiotic",
+    "PILLAR3_TEXT": "An innovative line of intimate hygiene that supports the skin's natural microbiome, providing a long-lasting feeling of freshness and comfort.",
+    "BRAND_TITLE": "About the Brand",
+    "BRAND_P1": "Novita is a premium brand of the Biosphere Corporation, embodying the idea of professional care at home.",
+    "BRAND_P2": "We understand the challenges your skin faces every day. That's why we invest in scientific research and choose only safe, eco-friendly materials.",
+    "BRAND_P3": "Our goal is to make daily beauty rituals as effective and pleasant as possible for every woman."
+  },
+  "CONTACTS": {
+    "TITLE": "Contact Us",
+    "SUBTITLE": "Our Contacts",
+    "DESCRIPTION": "We are always open to communication, suggestions, and questions about product quality.",
+    "OFFICE": "Central Office (Biosphere Corporation):",
+    "ADDRESS": "37 Zaporizke Shose, Dnipro, 49040, Ukraine",
+    "HOTLINE": "Hotline:",
+    "FREE_UKRAINE": "(free within Ukraine)",
+    "SOCIAL_NETWORKS": "Social Networks:",
+    "SAFETY_NOTE": "We care about your safety and the quality of every product. Your feedback helps us get better.",
+    "FIND_US": "Where to Find Us"
+  },
+  "PRODUCTS": {
+    "TITLE": "Our Products",
+    "NOT_FOUND": "No products found in this category.",
+    "CATEGORIES": {
+      "ALL": "All",
+      "COTTON": "Cotton Products",
+      "WIPES": "Wet Wipes",
+      "MAKEUP": "Makeup Removal",
+      "INTIMATE": "Intimate Hygiene"
+    }
+  }
+}

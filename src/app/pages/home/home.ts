@@ -4,11 +4,13 @@ import { ProductService } from '../../services/product.service';
 import { Product } from '../../models/product.model';
 import { ProductCardComponent } from '../../components/product-card/product-card';
 import { InstagramFeedComponent } from '../../components/instagram-feed/instagram-feed';
+import { TranslateModule } from '@ngx-translate/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule, ProductCardComponent, InstagramFeedComponent],
+  imports: [CommonModule, ProductCardComponent, InstagramFeedComponent, TranslateModule, RouterLink],
   templateUrl: './home.html',
   styleUrl: './home.scss'
 })

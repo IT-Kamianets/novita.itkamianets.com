@@ -1,0 +1,69 @@
+{
+  "NAV": {
+    "HOME": "Startseite",
+    "PRODUCTS": "Produkte",
+    "ABOUT": "Über uns",
+    "CONTACTS": "Kontakte"
+  },
+  "FOOTER": {
+    "DESCRIPTION": "Professionelle Hautpflege für Ihre tägliche Routine. Wir verbinden Qualität, Innovation und Pflege für Ihre Haut.",
+    "QUICK_LINKS": "Schnelllinks",
+    "FOLLOW_US": "Folgen Sie uns",
+    "RIGHTS_RESERVED": "Alle Rechte vorbehalten."
+  },
+  "HOME": {
+    "HERO_TITLE": "Pflegen Sie Ihre Haut <br>mit Novita",
+    "HERO_SUBTITLE": "Professionelle Hautpflegelösungen für jede Phase Ihrer täglichen Routine. Reinigung, Tonisierung und Schutz.",
+    "HERO_BUTTON_PRODUCTS": "Produkte ansehen",
+    "HERO_BUTTON_INSTA": "Folgen Sie uns auf Instagram",
+    "OUR_PRODUCTS_TITLE": "Unsere Produkte",
+    "WHY_CHOOSE_TITLE": "Warum Novita wählen?",
+    "WHY_CHOOSE_LI1_TITLE": "Anti-Pollution-Effekt:",
+    "WHY_CHOOSE_LI1_TEXT": " Unsere Produkte wurden entwickelt, um Ihre Haut vor Umwelteinflüssen zu schützen und eine Tiefenreinigung zu gewährleisten.",
+    "WHY_CHOOSE_LI2_TITLE": "Biolin Präbiotikum:",
+    "WHY_CHOOSE_LI2_TEXT": " Spezielle Intimhygiene-Linie mit Präbiotika zur Unterstützung Ihres natürlichen Gleichgewichts.",
+    "WHY_CHOOSE_LI3_TITLE": "Natürliche Materialien:",
+    "WHY_CHOOSE_LI3_TEXT": " 100 % natürliche Baumwolle für unsere Pads und Stäbchen, die für ein sanftes Gefühl sorgt.",
+    "WHY_CHOOSE_LI4_TITLE": "Umfassende Pflege:",
+    "WHY_CHOOSE_LI4_TEXT": " Wir bieten Lösungen für jede Phase: Make-up-Entfernung, Reinigung und Tonisierung.",
+    "INSTA_TITLE": "Folgen Sie uns auf Instagram",
+    "INSTA_SUBTITLE": "Treten Sie unserer Community bei, um über die neuesten Nachrichten und Schönheitstipps auf dem Laufenden zu bleiben."
+  },
+  "ABOUT": {
+    "HERO_TITLE": "Novita: Philosophie der Pflege",
+    "HERO_SUBTITLE": "Wir entwickeln Produkte, die Ihre natürliche Schönheit in der heutigen Welt pflegen.",
+    "PILLAR1_TITLE": "Anti-Pollution-Schutz",
+    "PILLAR1_TEXT": "Eine einzigartige Produktserie, die für Stadtbewohner entwickelt wurde. Reinigt die Poren tiefenwirksam und bildet eine unsichtbare Barriere gegen Giftstoffe und Smog.",
+    "PILLAR2_TITLE": "Natürliche Baumwolle",
+    "PILLAR2_TEXT": "Wir verwenden ausschließlich 100 % natürliche, hochwertige Baumwolle. Unsere Pads und Stäbchen sorgen für ein sanftes Gefühl, ohne Irritationen hervorzurufen.",
+    "PILLAR3_TITLE": "Biolin Präbiotikum",
+    "PILLAR3_TEXT": "Eine innovative Intimhygiene-Linie, die das natürliche Mikrobiom der Haut unterstützt und für ein langanhaltendes Gefühl von Frische und Komfort sorgt.",
+    "BRAND_TITLE": "Über die Marke",
+    "BRAND_P1": "Novita ist eine Premiummarke der Biosphere Corporation, die die Idee der professionellen Pflege für zu Hause verkörpert.",
+    "BRAND_P2": "Wir verstehen die Herausforderungen, denen Ihre Haut jeden Tag ausgesetzt ist. Deshalb investieren wir in wissenschaftliche Forschung und wählen nur sichere, umweltfreundliche Materialien.",
+    "BRAND_P3": "Unser Ziel ist es, die täglichen Schönheitsrituale für jede Frau so effektiv und angenehm wie möglich zu gestalten."
+  },
+  "CONTACTS": {
+    "TITLE": "Kontaktieren Sie uns",
+    "SUBTITLE": "Unsere Kontakte",
+    "DESCRIPTION": "Wir sind jederzeit offen für Kommunikation, Vorschläge und Fragen zur Produktqualität.",
+    "OFFICE": "Hauptsitz (Biosphere Corporation):",
+    "ADDRESS": "Zaporizke Shose 37, Dnipro, 49040, Ukraine",
+    "HOTLINE": "Hotline:",
+    "FREE_UKRAINE": "(gebührenfrei innerhalb der Ukraine)",
+    "SOCIAL_NETWORKS": "Soziale Netzwerke:",
+    "SAFETY_NOTE": "Ihre Sicherheit und die Qualität jedes Produkts liegen uns am Herzen. Ihr Feedback hilft uns, besser zu werden.",
+    "FIND_US": "So finden Sie uns"
+  },
+  "PRODUCTS": {
+    "TITLE": "Unsere Produkte",
+    "NOT_FOUND": "Keine Produkte in dieser Kategorie gefunden.",
+    "CATEGORIES": {
+      "ALL": "Alle",
+      "COTTON": "Baumwollprodukte",
+      "WIPES": "Feuchttücher",
+      "MAKEUP": "Make-up-Entfernung",
+      "INTIMATE": "Intimpflege"
+    }
+  }
+}

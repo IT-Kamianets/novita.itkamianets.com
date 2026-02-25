@@ -3,18 +3,17 @@
     <div class="container">
       <div class="columns is-vcentered">
         <div class="column is-6">
-          <h1 class="title is-1 glass-text">
-            Подбайте про свою шкіру <br>разом з Novita
+          <h1 class="title is-1 glass-text" [innerHTML]="'HOME.HERO_TITLE' | translate">
           </h1>
           <p class="subtitle is-4 mt-4 glass-text-secondary">
-            Професійні рішення для догляду за шкірою на кожному етапі вашої щоденної рутини. Очищення, тонізація та захист.
+            {{ 'HOME.HERO_SUBTITLE' | translate }}
           </p>
           <div class="buttons mt-5">
             <a class="button glass-button-primary is-large" routerLink="/products">
-              Переглянути товари
+              {{ 'HOME.HERO_BUTTON_PRODUCTS' | translate }}
             </a>
             <a class="button glass-button-secondary is-large" href="https://www.instagram.com/novitaua/" target="_blank">
-              Ми в Instagram
+              {{ 'HOME.HERO_BUTTON_INSTA' | translate }}
             </a>
           </div>
         </div>
@@ -28,7 +27,7 @@
 
 <section class="section glass-section">
   <div class="container">
-    <h2 class="title is-2 has-text-centered mb-6 glass-text">Наша продукція</h2>
+    <h2 class="title is-2 has-text-centered mb-6 glass-text">{{ 'HOME.OUR_PRODUCTS_TITLE' | translate }}</h2>
     <div class="columns is-multiline is-centered">
       <div class="column is-4" *ngFor="let product of products">
         <app-product-card [product]="product"></app-product-card>
@@ -41,20 +40,20 @@
   <div class="container">
     <div class="columns is-vcentered">
       <div class="column is-6">
-        <h2 class="title is-3 glass-text">Чому обирають Novita?</h2>
+        <h2 class="title is-3 glass-text">{{ 'HOME.WHY_CHOOSE_TITLE' | translate }}</h2>
         <div class="content glass-text-secondary" style="color: var(--text-primary) !important;">
           <ul>
             <li>
-              <strong class="has-text-novita-blue">Ефект Anti-Pollution:</strong> Наші продукти створені для захисту вашої шкіри від шкідливих факторів навколишнього середовища та забезпечення глибокого очищення.
+              <strong class="has-text-novita-blue">{{ 'HOME.WHY_CHOOSE_LI1_TITLE' | translate }}</strong>{{ 'HOME.WHY_CHOOSE_LI1_TEXT' | translate }}
             </li>
             <li>
-              <strong class="has-text-novita-blue">Пребіотик Biolin:</strong> Спеціальна лінія для інтимної гігієни з пребіотиками для підтримки вашого природного балансу.
+              <strong class="has-text-novita-blue">{{ 'HOME.WHY_CHOOSE_LI2_TITLE' | translate }}</strong>{{ 'HOME.WHY_CHOOSE_LI2_TEXT' | translate }}
             </li>
             <li>
-              <strong class="has-text-novita-blue">Натуральні матеріали:</strong> 100% натуральна бавовна для наших дисків та паличок, що забезпечує найм'якший дотик.
+              <strong class="has-text-novita-blue">{{ 'HOME.WHY_CHOOSE_LI3_TITLE' | translate }}</strong>{{ 'HOME.WHY_CHOOSE_LI3_TEXT' | translate }}
             </li>
             <li>
-              <strong class="has-text-novita-blue">Комплексний догляд:</strong> Ми пропонуємо рішення для кожного етапу: зняття макіяжу, очищення та тонізація.
+              <strong class="has-text-novita-blue">{{ 'HOME.WHY_CHOOSE_LI4_TITLE' | translate }}</strong>{{ 'HOME.WHY_CHOOSE_LI4_TEXT' | translate }}
             </li>
           </ul>
         </div>
@@ -68,8 +67,8 @@
 
 <section class="section glass-section">
   <div class="container has-text-centered">
-    <h2 class="title is-3 mb-5 glass-text">Слідкуйте за нами в Instagram</h2>
-    <p class="subtitle glass-text-secondary mb-6">Приєднуйтесь до нашої спільноти, щоб дізнаватися про останні новини та поради з краси.</p>
+    <h2 class="title is-3 mb-5 glass-text">{{ 'HOME.INSTA_TITLE' | translate }}</h2>
+    <p class="subtitle glass-text-secondary mb-6">{{ 'HOME.INSTA_SUBTITLE' | translate }}</p>
     
     <app-instagram-feed></app-instagram-feed>
 

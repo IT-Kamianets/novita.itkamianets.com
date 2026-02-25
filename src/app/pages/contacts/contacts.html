@@ -1,26 +1,25 @@
 <section class="section contacts-section glass-section">
   <div class="container">
-    <h1 class="title is-1 glass-text has-text-centered mb-6">Зв'яжіться з нами</h1>
+    <h1 class="title is-1 glass-text has-text-centered mb-6">{{ 'CONTACTS.TITLE' | translate }}</h1>
 
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content glass-text-secondary has-text-centered">
-          <h2 class="title is-4 glass-text">Наші контакти</h2>
-          <p>Ми завжди відкриті до спілкування, пропозицій та запитань щодо якості продукції.</p>
+          <h2 class="title is-4 glass-text">{{ 'CONTACTS.SUBTITLE' | translate }}</h2>
+          <p>{{ 'CONTACTS.DESCRIPTION' | translate }}</p>
           
           <div class="columns is-multiline mt-5">
             <div class="column is-6">
               <p>
-                <strong class="glass-text">Центральний офіс (Корпорація «Біосфера»):</strong><br>
-                49040, Україна, м. Дніпро,<br>
-                Запорізьке шосе, 37
+                <strong class="glass-text">{{ 'CONTACTS.OFFICE' | translate }}</strong><br>
+                {{ 'CONTACTS.ADDRESS' | translate }}
               </p>
             </div>
             <div class="column is-6">
               <p>
-                <strong class="glass-text">Гаряча лінія:</strong><br>
+                <strong class="glass-text">{{ 'CONTACTS.HOTLINE' | translate }}</strong><br>
                 <a href="tel:0800300139" class="glass-text" style="color: var(--novita-blue) !important;">0 800 300 139</a><br>
-                (безкоштовно по Україні)
+                {{ 'CONTACTS.FREE_UKRAINE' | translate }}
               </p>
             </div>
             <div class="column is-6">
@@ -31,7 +30,7 @@
             </div>
             <div class="column is-6">
               <p>
-                <strong class="glass-text">Соціальні мережі:</strong><br>
+                <strong class="glass-text">{{ 'CONTACTS.SOCIAL_NETWORKS' | translate }}</strong><br>
                 <a href="https://www.instagram.com/novitaua/" target="_blank" class="glass-text" style="color: var(--novita-blue) !important;">
                   <span class="icon"><i class="fab fa-instagram"></i></span> @novitaua
                 </a>
@@ -41,7 +40,7 @@
 
           <div class="mt-5 is-flex is-justify-content-center">
              <div class="glass-card p-4" style="max-width: 500px;">
-               <p class="is-size-7">Ми дбаємо про вашу безпеку та якість кожного виробу. Ваші відгуки допомагають нам ставати кращими.</p>
+               <p class="is-size-7">{{ 'CONTACTS.SAFETY_NOTE' | translate }}</p>
              </div>
           </div>
         </div>
@@ -52,7 +51,7 @@
 
 <section class="section glass-section">
   <div class="container">
-    <h2 class="title is-2 glass-text has-text-centered mb-6">Де нас знайти</h2>
+    <h2 class="title is-2 glass-text has-text-centered mb-6">{{ 'CONTACTS.FIND_US' | translate }}</h2>
     <div class="glass-card" style="padding: 0; overflow: hidden; border-radius: 20px; line-height: 0;">
       <iframe 
         src="https://www.google.com/maps?q=48.6847211,26.597681&hl=uk&z=17&output=embed" 

@@ -5,6 +5,52 @@
   }
 }
 
+// Стилізація для випадаючого списку (dropdown)
+.navbar-item.has-dropdown {
+  &:hover > .navbar-link {
+    background-color: rgba(255, 255, 255, 0.2) !important; // Світлий фон при наведенні
+    color: var(--novita-blue) !important;
+  }
+
+  .navbar-link {
+    &::after {
+      border-color: var(--novita-blue) !important; // Колір стрілочки
+    }
+    
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.2) !important;
+    }
+  }
+}
+
+.navbar-dropdown {
+  &.glass-navbar {
+    background: rgba(255, 255, 255, 0.8) !important; // Трохи щільніший фон для читабельності
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    box-shadow: var(--glass-shadow);
+    padding: 0.5rem 0;
+    
+    .navbar-item {
+      color: var(--text-primary) !important;
+      background-color: transparent !important; // Прибираємо стандартний фон Bulma
+      transition: all 0.2s ease;
+      
+      &:hover {
+        background-color: rgba(var(--novita-blue-rgb), 0.1) !important; // Легкий блакитний фон при наведенні
+        color: var(--novita-blue) !important;
+      }
+      
+      &.is-active {
+        background-color: rgba(var(--novita-blue-rgb), 0.1) !important;
+        color: var(--novita-blue) !important;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
 .navbar-brand .title {
   letter-spacing: 2px;
 }

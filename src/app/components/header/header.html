@@ -15,20 +15,53 @@
     <div class="navbar-menu" [class.is-active]="isMenuOpen">
       <div class="navbar-start">
         <a class="navbar-item glass-text" routerLink="/" routerLinkActive="is-active" [routerLinkActiveOptions]="{exact: true}">
-          Головна
+          {{ 'NAV.HOME' | translate }}
         </a>
         <a class="navbar-item glass-text" routerLink="/products" routerLinkActive="is-active">
-          Продукція
+          {{ 'NAV.PRODUCTS' | translate }}
         </a>
         <a class="navbar-item glass-text" routerLink="/about" routerLinkActive="is-active">
-          Про нас
+          {{ 'NAV.ABOUT' | translate }}
         </a>
         <a class="navbar-item glass-text" routerLink="/contacts" routerLinkActive="is-active">
-          Контакти
+          {{ 'NAV.CONTACTS' | translate }}
         </a>
       </div>
 
       <div class="navbar-end">
+        <div class="navbar-item">
+          <button class="button is-ghost glass-text p-2" (click)="toggleTheme()" [title]="isDarkMode ? 'Світла тема' : 'Темна тема'">
+            <span class="icon">
+              <i class="fas" [class.fa-sun]="isDarkMode" [class.fa-moon]="!isDarkMode"></i>
+            </span>
+          </button>
+        </div>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link glass-text">
+            <span class="icon is-small mr-1"><i class="fas fa-globe"></i></span>
+            {{ currentLang.toUpperCase() }}
+          </a>
+
+          <div class="navbar-dropdown is-right is-boxed glass-navbar">
+            <a class="navbar-item" (click)="changeLanguage('uk')" [class.is-active]="currentLang === 'uk'">
+              Українська (UK)
+            </a>
+            <a class="navbar-item" (click)="changeLanguage('en')" [class.is-active]="currentLang === 'en'">
+              English (EN)
+            </a>
+            <a class="navbar-item" (click)="changeLanguage('fr')" [class.is-active]="currentLang === 'fr'">
+              Français (FR)
+            </a>
+            <a class="navbar-item" (click)="changeLanguage('it')" [class.is-active]="currentLang === 'it'">
+              Italiano (IT)
+            </a>
+            <a class="navbar-item" (click)="changeLanguage('de')" [class.is-active]="currentLang === 'de'">
+              Deutsch (DE)
+            </a>
+          </div>
+        </div>
+
         <div class="navbar-item">
           <div class="buttons">
             <a class="button glass-button-primary" href="https://www.instagram.com/novitaua/" target="_blank" title="Instagram">

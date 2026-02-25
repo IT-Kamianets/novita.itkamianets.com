@@ -1,11 +1,11 @@
 <section class="section products-section glass-section">
   <div class="container">
-    <h1 class="title is-1 glass-text has-text-centered mb-6">Наша продукція</h1>
+    <h1 class="title is-1 glass-text has-text-centered mb-6">{{ 'PRODUCTS.TITLE' | translate }}</h1>
 
     <div class="tabs is-centered is-toggle is-toggle-rounded glass-tabs">
       <ul>
         <li *ngFor="let cat of categories" [class.is-active]="selectedCategory === cat">
-          <a (click)="filterByCategory(cat)" class="glass-text">{{ cat }}</a>
+          <a (click)="filterByCategory(cat)" class="glass-text">{{ categoryMapping[cat] | translate }}</a>
         </li>
       </ul>
     </div>
@@ -17,7 +17,7 @@
     </div>
 
     <div *ngIf="filteredProducts.length === 0" class="has-text-centered mt-6">
-      <p class="subtitle glass-text-secondary">Товарів у цій категорії не знайдено.</p>
+      <p class="subtitle glass-text-secondary">{{ 'PRODUCTS.NOT_FOUND' | translate }}</p>
     </div>
   </div>
 </section>

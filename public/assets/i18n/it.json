@@ -1,0 +1,69 @@
+{
+  "NAV": {
+    "HOME": "Home",
+    "PRODUCTS": "Prodotti",
+    "ABOUT": "Chi siamo",
+    "CONTACTS": "Contatti"
+  },
+  "FOOTER": {
+    "DESCRIPTION": "Prodotti professionali per la cura della pelle per la tua routine quotidiana. Uniamo qualità, innovazione e cura per la tua pelle.",
+    "QUICK_LINKS": "Link rapidi",
+    "FOLLOW_US": "Seguici",
+    "RIGHTS_RESERVED": "Tutti i diritti riservati."
+  },
+  "HOME": {
+    "HERO_TITLE": "Prenditi cura della tua pelle <br>con Novita",
+    "HERO_SUBTITLE": "Soluzioni professionali per la cura della pelle per ogni fase della tua routine quotidiana. Detersione, tonificazione e protezione.",
+    "HERO_BUTTON_PRODUCTS": "Visualizza i prodotti",
+    "HERO_BUTTON_INSTA": "Seguici su Instagram",
+    "OUR_PRODUCTS_TITLE": "I nostri prodotti",
+    "WHY_CHOOSE_TITLE": "Perché scegliere Novita?",
+    "WHY_CHOOSE_LI1_TITLE": "Effetto Anti-Pollution:",
+    "WHY_CHOOSE_LI1_TEXT": " I nostri prodotti sono progettati per proteggere la pelle dai fattori ambientali e fornire una pulizia profonda.",
+    "WHY_CHOOSE_LI2_TITLE": "Prebiotico Biolin:",
+    "WHY_CHOOSE_LI2_TEXT": " Linea speciale per l'igiene intima con prebiotici per supportare il tuo equilibrio naturale.",
+    "WHY_CHOOSE_LI3_TITLE": "Materiali naturali:",
+    "WHY_CHOOSE_LI3_TEXT": " 100% cotone naturale per i nostri dischetti e bastoncini, garantendo il tocco più delicato.",
+    "WHY_CHOOSE_LI4_TITLE": "Cura completa:",
+    "WHY_CHOOSE_LI4_TEXT": " Offriamo soluzioni per ogni fase: rimozione del trucco, detersione e tonificazione.",
+    "INSTA_TITLE": "Seguici su Instagram",
+    "INSTA_SUBTITLE": "Unisciti alla nostra community per rimanere aggiornato sulle ultime novità e consigli di bellezza."
+  },
+  "ABOUT": {
+    "HERO_TITLE": "Novita: Filosofia della Cura",
+    "HERO_SUBTITLE": "Creiamo prodotti che si prendono cura della tua bellezza naturale nel mondo di oggi.",
+    "PILLAR1_TITLE": "Protezione anti-pollution",
+    "PILLAR1_TEXT": "Una serie unica di prodotti sviluppati per chi vive in città. Pulisce a fondo i pori e crea una barriera invisibile contro tossine e smog.",
+    "PILLAR2_TITLE": "Cotone naturale",
+    "PILLAR2_TEXT": "Utilizziamo solo cotone di alta qualità al 100% naturale. I nostri dischetti e bastoncini offrono il tocco più delicato senza causare irritazioni.",
+    "PILLAR3_TITLE": "Prebiotico Biolin",
+    "PILLAR3_TEXT": "Un'innovativa linea di igiene intima che supporta il microbioma naturale della pelle, offrendo una sensazione duratura di freschezza e comfort.",
+    "BRAND_TITLE": "Informazioni sul marchio",
+    "BRAND_P1": "Novita è un marchio premium della Biosphere Corporation, che incarna l'idea di cura professionale a casa.",
+    "BRAND_P2": "Comprendiamo le sfide che la tua pelle affronta ogni giorno. Ecco perché investiamo nella ricerca scientifica e scegliamo solo materiali sicuri ed ecologici.",
+    "BRAND_P3": "Il nostro obiettivo è rendere i rituali di bellezza quotidiani il più efficaci e piacevoli possibile per ogni donna."
+  },
+  "CONTACTS": {
+    "TITLE": "Contattaci",
+    "SUBTITLE": "I Nostri Contatti",
+    "DESCRIPTION": "Siamo sempre aperti alla comunicazione, suggerimenti e domande sulla qualità dei prodotti.",
+    "OFFICE": "Sede Centrale (Biosphere Corporation):",
+    "ADDRESS": "37 Zaporizke Shose, Dnipro, 49040, Ucraina",
+    "HOTLINE": "Linea Diretta:",
+    "FREE_UKRAINE": "(gratuito in Ucraina)",
+    "SOCIAL_NETWORKS": "Social Network:",
+    "SAFETY_NOTE": "Abbiamo a cuore la tua sicurezza e la qualità di ogni prodotto. I tuoi feedback ci aiutano a migliorare.",
+    "FIND_US": "Dove Trovarci"
+  },
+  "PRODUCTS": {
+    "TITLE": "I nostri prodotti",
+    "NOT_FOUND": "Nessun prodotto trovato in questa categoria.",
+    "CATEGORIES": {
+      "ALL": "Tutti",
+      "COTTON": "Prodotti in cotone",
+      "WIPES": "Salviette umidificate",
+      "MAKEUP": "Rimozione trucco",
+      "INTIMATE": "Igiene intima"
+    }
+  }
+}
