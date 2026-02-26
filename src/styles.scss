@@ -154,12 +154,12 @@ body {
 }
 
 .main-content {
-  padding-top: 4.5rem;
-  min-height: calc(100vh - 4.5rem);
+  padding-top: 7rem; // Height of top + bottom desktop nav
+  min-height: 100vh;
 
   @media screen and (max-width: 1023px) {
-    padding-top: 0;
-    padding-bottom: 4.5rem; // Padding for bottom navbar
+    padding-top: 3.5rem; // Height of top mobile nav
+    padding-bottom: 4rem; // Height of bottom mobile nav
   }
 }
 
@@ -179,38 +179,13 @@ body {
   align-items: center;
 
   @media screen and (max-width: 1023px) {
-    &.is-fixed-top {
-      top: auto !important;
-      bottom: 0 !important;
-    }
-    bottom: 0 !important;
-    border-bottom: none;
-    border-top: 1px solid var(--glass-border);
-    position: fixed !important;
-    width: 100%;
-    z-index: 30;
+    min-height: auto;
+    padding: 0.5rem 0;
   }
 
   .navbar-brand {
     .navbar-item:hover {
       background: transparent !important;
-    }
-  }
-
-  .navbar-menu {
-    background: transparent; // Fix black background on mobile
-    box-shadow: none;
-    padding: 0;
-
-    @media screen and (max-width: 1023px) {
-      background: var(--glass-bg); 
-      backdrop-filter: blur(10px);
-      position: absolute;
-      width: 100%;
-      left: 0;
-      bottom: 100%; // Open upwards
-      border-top: 1px solid var(--glass-border);
-      border-bottom: none;
     }
   }
 
@@ -227,16 +202,6 @@ body {
 
     &.is-active {
       color: var(--novita-blue) !important;
-      background: transparent !important;
-    }
-  }
-
-  .navbar-burger {
-    height: 4.5rem;
-    width: 4.5rem;
-    color: var(--text-primary);
-    
-    &:hover {
       background: transparent !important;
     }
   }

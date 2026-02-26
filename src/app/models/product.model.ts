@@ -9,8 +9,8 @@ export interface Product {
 }
 
 export const CATEGORIES = [
-  'Ватна продукція',
-  'Інтимна гігієна',
-  'Вологі серветки',
-  'Зняття макіяжу'
+  'PRODUCTS.CATEGORIES.COTTON',
+  'PRODUCTS.CATEGORIES.INTIMATE',
+  'PRODUCTS.CATEGORIES.WIPES',
+  'PRODUCTS.CATEGORIES.MAKEUP'
 ];

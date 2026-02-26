@@ -8,16 +8,16 @@
     <div class="card-content">
       <div class="media">
         <div class="media-content">
-          <p class="subtitle is-7 glass-text-secondary" style="font-size: 0.75rem; margin-bottom: 0.5rem;">{{ product.category }}</p>
-          <p class="title is-6 glass-text" style="font-size: 1rem; line-height: 1.2;">{{ product.name }}</p>
+          <p class="subtitle is-7 glass-text-secondary" style="font-size: 0.75rem; margin-bottom: 0.5rem;">{{ product.category | translate }}</p>
+          <p class="title is-6 glass-text" style="font-size: 1rem; line-height: 1.2;">{{ product.name | translate }}</p>
         </div>
       </div>
 
       <div class="content glass-text-secondary" style="font-size: 0.85rem;">
-        {{ product.description }}
+        {{ product.description | translate }}
         <br>
         <div class="tags mt-2">
-          <span *ngFor="let feature of product.features" class="tag is-white is-rounded is-small glass-text-secondary" style="border: 1px solid var(--glass-border); font-size: 0.7rem;">{{ feature }}</span>
+          <span *ngFor="let feature of product.features" class="tag is-white is-rounded is-small glass-text-secondary" style="border: 1px solid var(--glass-border); font-size: 0.7rem;">{{ feature | translate }}</span>
         </div>
       </div>
     </div>

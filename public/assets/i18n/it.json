@@ -6,54 +6,54 @@
     "CONTACTS": "Contatti"
   },
   "FOOTER": {
-    "DESCRIPTION": "Prodotti professionali per la cura della pelle per la tua routine quotidiana. Uniamo qualità, innovazione e cura per la tua pelle.",
+    "DESCRIPTION": "Cura della pelle professionale per la tua routine quotidiana. Combiniamo qualità, innovazione e cura per la tua pelle.",
     "QUICK_LINKS": "Link rapidi",
     "FOLLOW_US": "Seguici",
     "RIGHTS_RESERVED": "Tutti i diritti riservati."
   },
   "HOME": {
     "HERO_TITLE": "Prenditi cura della tua pelle <br>con Novita",
-    "HERO_SUBTITLE": "Soluzioni professionali per la cura della pelle per ogni fase della tua routine quotidiana. Detersione, tonificazione e protezione.",
-    "HERO_BUTTON_PRODUCTS": "Visualizza i prodotti",
-    "HERO_BUTTON_INSTA": "Seguici su Instagram",
+    "HERO_SUBTITLE": "Soluzioni professionali per la cura della pelle per ogni fase della tua routine quotidiana. Pulizia, tonificazione e protezione.",
+    "HERO_BUTTON_PRODUCTS": "Visualizza prodotti",
+    "HERO_BUTTON_INSTA": "Segui su Instagram",
     "OUR_PRODUCTS_TITLE": "I nostri prodotti",
     "WHY_CHOOSE_TITLE": "Perché scegliere Novita?",
-    "WHY_CHOOSE_LI1_TITLE": "Effetto Anti-Pollution:",
-    "WHY_CHOOSE_LI1_TEXT": " I nostri prodotti sono progettati per proteggere la pelle dai fattori ambientali e fornire una pulizia profonda.",
+    "WHY_CHOOSE_LI1_TITLE": "Effetto anti-inquinamento:",
+    "WHY_CHOOSE_LI1_TEXT": " I nostri prodotti sono progettati per proteggere la tua pelle dai fattori ambientali e garantire una pulizia profonda.",
     "WHY_CHOOSE_LI2_TITLE": "Prebiotico Biolin:",
-    "WHY_CHOOSE_LI2_TEXT": " Linea speciale per l'igiene intima con prebiotici per supportare il tuo equilibrio naturale.",
+    "WHY_CHOOSE_LI2_TEXT": " Speciale linea di igiene intima con prebiotici per supportare il tuo equilibrio naturale.",
     "WHY_CHOOSE_LI3_TITLE": "Materiali naturali:",
     "WHY_CHOOSE_LI3_TEXT": " 100% cotone naturale per i nostri dischetti e bastoncini, garantendo il tocco più delicato.",
-    "WHY_CHOOSE_LI4_TITLE": "Cura completa:",
-    "WHY_CHOOSE_LI4_TEXT": " Offriamo soluzioni per ogni fase: rimozione del trucco, detersione e tonificazione.",
+    "WHY_CHOOSE_LI4_TITLE": "Cura complessa:",
+    "WHY_CHOOSE_LI4_TEXT": " Offriamo soluzioni per ogni fase: rimozione del trucco, pulizia e tonificazione.",
     "INSTA_TITLE": "Seguici su Instagram",
     "INSTA_SUBTITLE": "Unisciti alla nostra community per rimanere aggiornato sulle ultime novità e consigli di bellezza."
   },
   "ABOUT": {
-    "HERO_TITLE": "Novita: Filosofia della Cura",
+    "HERO_TITLE": "Novita: Filosofia della cura",
     "HERO_SUBTITLE": "Creiamo prodotti che si prendono cura della tua bellezza naturale nel mondo di oggi.",
-    "PILLAR1_TITLE": "Protezione anti-pollution",
-    "PILLAR1_TEXT": "Una serie unica di prodotti sviluppati per chi vive in città. Pulisce a fondo i pori e crea una barriera invisibile contro tossine e smog.",
+    "PILLAR1_TITLE": "Protezione anti-inquinamento",
+    "PILLAR1_TEXT": "Una serie unica di prodotti sviluppati per chi vive in città. Pulisce i pori in profondità e crea una barriera invisibile contro tossine e smog.",
     "PILLAR2_TITLE": "Cotone naturale",
     "PILLAR2_TEXT": "Utilizziamo solo cotone di alta qualità al 100% naturale. I nostri dischetti e bastoncini offrono il tocco più delicato senza causare irritazioni.",
     "PILLAR3_TITLE": "Prebiotico Biolin",
     "PILLAR3_TEXT": "Un'innovativa linea di igiene intima che supporta il microbioma naturale della pelle, offrendo una sensazione duratura di freschezza e comfort.",
     "BRAND_TITLE": "Informazioni sul marchio",
-    "BRAND_P1": "Novita è un marchio premium della Biosphere Corporation, che incarna l'idea di cura professionale a casa.",
-    "BRAND_P2": "Comprendiamo le sfide che la tua pelle affronta ogni giorno. Ecco perché investiamo nella ricerca scientifica e scegliamo solo materiali sicuri ed ecologici.",
+    "BRAND_P1": "Novita è un marchio premium della Biosphere Corporation, che incarna l'idea della cura professionale a casa.",
+    "BRAND_P2": "Comprendiamo le sfide che la tua pelle affronta ogni giorno. Per questo investiamo nella ricerca scientifica e scegliamo solo materiali sicuri ed ecologici.",
     "BRAND_P3": "Il nostro obiettivo è rendere i rituali di bellezza quotidiani il più efficaci e piacevoli possibile per ogni donna."
   },
   "CONTACTS": {
     "TITLE": "Contattaci",
-    "SUBTITLE": "I Nostri Contatti",
-    "DESCRIPTION": "Siamo sempre aperti alla comunicazione, suggerimenti e domande sulla qualità dei prodotti.",
-    "OFFICE": "Sede Centrale (Biosphere Corporation):",
+    "SUBTITLE": "I nostri contatti",
+    "DESCRIPTION": "Siamo sempre aperti alla comunicazione, suggerimenti e domande sulla qualità del prodotto.",
+    "OFFICE": "Sede centrale (Biosphere Corporation):",
     "ADDRESS": "37 Zaporizke Shose, Dnipro, 49040, Ucraina",
-    "HOTLINE": "Linea Diretta:",
+    "HOTLINE": "Linea diretta:",
     "FREE_UKRAINE": "(gratuito in Ucraina)",
     "SOCIAL_NETWORKS": "Social Network:",
-    "SAFETY_NOTE": "Abbiamo a cuore la tua sicurezza e la qualità di ogni prodotto. I tuoi feedback ci aiutano a migliorare.",
-    "FIND_US": "Dove Trovarci"
+    "SAFETY_NOTE": "Ci teniamo alla tua sicurezza e alla qualità di ogni prodotto. Il tuo feedback ci aiuta a migliorare.",
+    "FIND_US": "Dove trovarci"
   },
   "PRODUCTS": {
     "TITLE": "I nostri prodotti",
@@ -64,6 +64,181 @@
       "WIPES": "Salviette umidificate",
       "MAKEUP": "Rimozione trucco",
       "INTIMATE": "Igiene intima"
+    },
+    "P1": {
+      "NAME": "Bastoncini di cotone Novita Gapchinska in barattolo rotondo, 200 pz",
+      "DESCRIPTION": "Bastoncini di cotone in un barattolo elegante con un design esclusivo di Eugenia Gapchinska.",
+      "F1": "Confezione di design",
+      "F2": "Comodo barattolo",
+      "F3": "Alta qualità"
+    },
+    "P2": {
+      "NAME": "Dischetti di cotone cosmetici NOVITA Organic, 120 pz",
+      "DESCRIPTION": "Dischetti di cotone biologico per la cura più delicata della tua pelle.",
+      "F1": "Cotone biologico",
+      "F2": "Prodotto ecologico",
+      "F3": "Per pelli sensibili"
+    },
+    "P3": {
+      "NAME": "Bastoncini di cotone Novita Professional, 200 pz",
+      "DESCRIPTION": "Bastoncini di cotone professionali per l'uso quotidiano e procedure cosmetiche.",
+      "F1": "Stecco robusto",
+      "F2": "Cotone morbido",
+      "F3": "Serie professionale"
+    },
+    "P4": {
+      "NAME": "Dischetti di cotone cosmetici NOVITA Delicate, 50 pz",
+      "DESCRIPTION": "Confezione compatta di dischetti di cotone per i viaggi e la cura quotidiana.",
+      "F1": "100% cotone naturale",
+      "F2": "Bordo cucito",
+      "F3": "Non lascia pelucchi"
+    },
+    "P5": {
+      "NAME": "Dischetti di cotone cosmetici NOVITA Delicate, 100 pz",
+      "DESCRIPTION": "Confezione classica di dischetti di cotone per una pulizia delicata della pelle.",
+      "F1": "100% cotone naturale",
+      "F2": "Texture morbida",
+      "F3": "Pulizia efficace"
+    },
+    "P6": {
+      "NAME": "Dischetti di cotone cosmetici NOVITA Delicate, 120 pz",
+      "DESCRIPTION": "Confezione risparmio di dischetti di cotone Delicate.",
+      "F1": "Confezione grande",
+      "F2": "Doppio effetto",
+      "F3": "Ipoallergenico"
+    },
+    "P7": {
+      "NAME": "Dischetti di cotone cosmetici NOVITA Soft, 100 pz",
+      "DESCRIPTION": "Dischetti di cotone extra morbidi per le pelli più sensibili.",
+      "F1": "Effetto Soft",
+      "F2": "Cura delicata",
+      "F3": "Composizione naturale"
+    },
+    "P8": {
+      "NAME": "Dischetti di cotone cosmetici NOVITA Soft, 120 pz",
+      "DESCRIPTION": "Dischetti di cotone morbidi in confezione grande.",
+      "F1": "120 pezzi",
+      "F2": "Massima morbidezza",
+      "F3": "Per tutta la famiglia"
+    },
+    "P9": {
+      "NAME": "Dischetti di cotone cosmetici NOVITA Organic, 80 pz",
+      "DESCRIPTION": "Serie biologica di dischetti di cotone per consumatori attenti all'ambiente.",
+      "F1": "Biodegradabile",
+      "F2": "Senza cloro",
+      "F3": "Cotone biologico"
+    },
+    "P10": {
+      "NAME": "Dischetti di cotone cosmetici NOVITA Organic, 120 pz",
+      "DESCRIPTION": "Confezione massima di dischetti biologici.",
+      "F1": "Eco-confezione",
+      "F2": "Alta qualità",
+      "F3": "Delicatezza"
+    },
+    "P11": {
+      "NAME": "Dischetti di cotone cosmetici NOVITA Gapchinska, 100 pz",
+      "DESCRIPTION": "Dischetti di cotone con design d'autore di Gapchinska.",
+      "F1": "Design artistico",
+      "F2": "Serie da collezione",
+      "F3": "100% cotone"
+    },
+    "P12": {
+      "NAME": "Dischetti di cotone cosmetici NOVITA Gapchinska, 120 pz",
+      "DESCRIPTION": "Dischetti di cotone eleganti in confezione grande.",
+      "F1": "Design vivace",
+      "F2": "Qualità Novita",
+      "F3": "120 dischetti"
+    },
+    "P13": {
+      "NAME": "Bastoncini di cotone NOVITA Delicate in sacchetto di polietilene, 100 pz",
+      "DESCRIPTION": "Classici bastoncini di cotone per l'igiene.",
+      "F1": "Confezione comoda",
+      "F2": "Igienico",
+      "F3": "Cotone naturale"
+    },
+    "P14": {
+      "NAME": "Bastoncini di cotone NOVITA Delicate in sacchetto di polietilene, 200 pz",
+      "DESCRIPTION": "Bastoncini di cotone Delicate in confezione grande.",
+      "F1": "200 pezzi",
+      "F2": "Stecco robusto",
+      "F3": "Punta morbida"
+    },
+    "P15": {
+      "NAME": "Bastoncini di cotone NOVITA Delicate in scatola quadrata, 300 pz",
+      "DESCRIPTION": "Comoda scatola con un gran numero di bastoncini di cotone.",
+      "F1": "Deco Box",
+      "F2": "300 pezzi",
+      "F3": "Lunga durata"
+    },
+    "P16": {
+      "NAME": "Bastoncini di cotone NOVITA Soft in sacchetto di polietilene, 160 pz",
+      "DESCRIPTION": "Bastoncini di cotone morbidi della serie Soft.",
+      "F1": "Effetto Soft",
+      "F2": "160 pezzi",
+      "F3": "Sicuro"
+    },
+    "P17": {
+      "NAME": "Bastoncini di cotone NOVITA Organic in sacchetto di polietilene, 100 pz",
+      "DESCRIPTION": "Bastoncini di cotone ecologici realizzati in cotone biologico.",
+      "F1": "Cotone biologico",
+      "F2": "Eco-confezione",
+      "F3": "100 pezzi"
+    },
+    "P18": {
+      "NAME": "Bastoncini di cotone NOVITA Gapchinska in sacchetto di polietilene, 100 pz",
+      "DESCRIPTION": "Bastoncini di cotone Gapchinska in confezione morbida.",
+      "F1": "Design d'autore",
+      "F2": "Qualità Novita",
+      "F3": "Praticità"
+    },
+    "P19": {
+      "NAME": "Bastoncini di cotone NOVITA Gapchinska in sacchetto di polietilene, 200 pz",
+      "DESCRIPTION": "Confezione grande di bastoncini Gapchinska.",
+      "F1": "200 pezzi",
+      "F2": "Serie di design",
+      "F3": "Cotone morbido"
+    },
+    "P20": {
+      "NAME": "Salvietta umidificata Make up NOVITA con acqua micellare, 15 pz",
+      "DESCRIPTION": "Salviette per rimuovere il trucco con acqua micellare e alghe marine.",
+      "F1": "Acqua micellare",
+      "F2": "Alghe marine",
+      "F3": "Effetto idratante"
+    },
+    "P21": {
+      "NAME": "Salvietta umidificata Make up Delicate Novita Oil Complex, 15 pz",
+      "DESCRIPTION": "Salviette delicate per rimuovere il trucco con un complesso di oli.",
+      "F1": "Complesso di oli",
+      "F2": "Nutrizione",
+      "F3": "Pulizia delicata"
+    },
+    "P22": {
+      "NAME": "Salvietta umidificata Intimate Novita Biolin Prebiotic, 15 pz",
+      "DESCRIPTION": "Salviette per l'igiene intima con prebiotico Biolin.",
+      "F1": "Prebiotico Biolin",
+      "F2": "Equilibrio della microflora",
+      "F3": "Freschezza"
+    },
+    "P23": {
+      "NAME": "Salvietta umidificata Intimate Soft Novita Amiderm Complex, 15 pz",
+      "DESCRIPTION": "Salviette particolarmente delicate per l'igiene intima.",
+      "F1": "Complesso Amiderm",
+      "F2": "Tocco morbido",
+      "F3": "Ipoallergenico"
+    },
+    "P24": {
+      "NAME": "Salvietta struccante NOVITA PROFESSIONAL, 15 pz",
+      "DESCRIPTION": "Salviette professionali con fitocomplesso.",
+      "F1": "Fitocomplesso",
+      "F2": "Cura professionale",
+      "F3": "Pulizia profonda"
+    },
+    "P25": {
+      "NAME": "Salvietta per l'igiene intima NOVITA PROFESSIONAL, 15 pz",
+      "DESCRIPTION": "Salviette professionali con complesso vegetale.",
+      "F1": "Complesso vegetale",
+      "F2": "Protezione",
+      "F3": "Per uso quotidiano"
     }
   }
 }

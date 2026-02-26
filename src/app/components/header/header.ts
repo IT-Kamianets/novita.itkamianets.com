@@ -11,12 +11,30 @@ import { CommonModule } from '@angular/common';
   styleUrl: './header.scss'
 })
 export class HeaderComponent {
-  isMenuOpen = false;
   currentLang: string;
   isDarkMode = false;
+  isLangMenuOpen = false;
+
+  languages = [
+    { code: 'uk', label: 'UA', name: 'Українська' },
+    { code: 'en', label: 'EN', name: 'English' },
+    { code: 'fr', label: 'FR', name: 'Français' },
+    { code: 'it', label: 'IT', name: 'Italiano' },
+    { code: 'de', label: 'DE', name: 'Deutsch' }
+  ];
 
   constructor(private translate: TranslateService) {
-    this.currentLang = this.translate.currentLang || this.translate.defaultLang || 'uk';
+    let initialLang = 'uk';
+    if (typeof localStorage !== 'undefined') {
+      initialLang = localStorage.getItem('lang') || this.translate.currentLang || this.translate.defaultLang || 'uk';
+    }
+    this.currentLang = initialLang;
+    
+    // Слідкуємо за зміною мови
+    this.translate.onLangChange.subscribe((event) => {
+      this.currentLang = event.lang;
+    });
+
     // Перевірка збереженої теми
     if (typeof localStorage !== 'undefined') {
       this.isDarkMode = localStorage.getItem('theme') === 'dark';
@@ -24,13 +42,31 @@ export class HeaderComponent {
     }
   }
 
-  toggleMenu() {
-    this.isMenuOpen = !this.isMenuOpen;
+  getCurrentLangLabel(): string {
+    return this.languages.find(l => l.code === this.currentLang)?.label || 'UA';
   }
 
   changeLanguage(lang: string) {
-    this.translate.use(lang);
-    this.currentLang = lang;
+    if (this.currentLang === lang) {
+      this.isLangMenuOpen = false;
+      return;
+    }
+
+    this.translate.use(lang).subscribe({
+      next: () => {
+        this.currentLang = lang;
+        this.isLangMenuOpen = false;
+        if (typeof localStorage !== 'undefined') {
+          localStorage.setItem('lang', lang);
+        }
+      },
+      error: () => {
+        // Fallback
+        this.translate.use(lang);
+        this.currentLang = lang;
+        this.isLangMenuOpen = false;
+      }
+    });
   }
 
   toggleTheme() {
@@ -39,6 +75,10 @@ export class HeaderComponent {
     if (typeof localStorage !== 'undefined') {
       localStorage.setItem('theme', this.isDarkMode ? 'dark' : 'light');
     }
+  }
+
+  toggleLangMenu() {
+    this.isLangMenuOpen = !this.isLangMenuOpen;
   }
 
   private applyTheme() {

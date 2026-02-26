@@ -17,16 +17,8 @@ export class ProductsComponent implements OnInit {
   products: Product[] = [];
   filteredProducts: Product[] = [];
   
-  categoryMapping: {[key: string]: string} = {
-    'Усі': 'PRODUCTS.CATEGORIES.ALL',
-    'Ватна продукція': 'PRODUCTS.CATEGORIES.COTTON',
-    'Інтимна гігієна': 'PRODUCTS.CATEGORIES.INTIMATE',
-    'Вологі серветки': 'PRODUCTS.CATEGORIES.WIPES',
-    'Зняття макіяжу': 'PRODUCTS.CATEGORIES.MAKEUP'
-  };
-
-  categories = ['Усі', ...CATEGORIES];
-  selectedCategory = 'Усі';
+  categories = ['ALL', ...CATEGORIES];
+  selectedCategory = 'ALL';
 
   ngOnInit() {
     this.productService.getProducts().subscribe(data => {
@@ -37,10 +29,15 @@ export class ProductsComponent implements OnInit {
 
   filterByCategory(category: string) {
     this.selectedCategory = category;
-    if (category === 'Усі') {
+    if (category === 'ALL') {
       this.filteredProducts = this.products;
     } else {
       this.filteredProducts = this.products.filter(p => p.category === category);
     }
+  }
+
+  getCategoryKey(category: string): string {
+    if (category === 'ALL') return 'PRODUCTS.CATEGORIES.ALL';
+    return category; // It's already a key
   }
 }

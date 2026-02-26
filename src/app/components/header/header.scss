@@ -1,56 +1,264 @@
-.navbar-item {
-  &.is-active {
-    color: var(--novita-blue);
-    font-weight: bold;
+.header-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-nav {
+  z-index: 1000;
+  height: 4.5rem;
+  
+  @media screen and (max-width: 1023px) {
+    height: 3.5rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
 }
 
-// Стилізація для випадаючого списку (dropdown)
-.navbar-item.has-dropdown {
-  &:hover > .navbar-link {
-    background-color: rgba(255, 255, 255, 0.2) !important; // Світлий фон при наведенні
+.bottom-nav {
+  z-index: 999;
+  
+  @media screen and (min-width: 1024px) {
+    position: fixed;
+    top: 4.5rem;
+    width: 100%;
+    min-height: 2.5rem !important;
+    border-top: 1px solid var(--glass-border);
+  }
+
+  @media screen and (max-width: 1023px) {
+    position: fixed;
+    bottom: 0;
+    top: auto !important;
+    width: 100%;
+    border-top: 1px solid var(--glass-border);
+    border-bottom: none;
+    padding-bottom: env(safe-area-inset-bottom);
+    background: var(--glass-bg) !important;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    height: 3.5rem; // More compact
+    display: flex;
+    align-items: center;
+  }
+}
+
+.nav-logo {
+  max-height: 2.8rem;
+  transition: transform 0.2s ease;
+  
+  &:hover {
+    transform: scale(1.05);
+  }
+  
+  @media screen and (max-width: 1023px) {
+    max-height: 1.8rem;
+  }
+}
+
+.navbar-top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-bottom-row {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  
+  .navbar-item {
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.5rem 1.25rem;
+    color: var(--text-primary) !important;
+    background: transparent !important;
+    flex-direction: column;
+    
+    @media screen and (max-width: 1023px) {
+      font-size: 0.65rem; // More compact font
+      padding: 0.25rem;
+      flex-grow: 1;
+      text-align: center;
+      justify-content: center;
+      height: 100%;
+      min-width: 80px;
+      
+      .icon {
+        margin-bottom: 0px;
+        color: var(--text-secondary);
+        font-size: 1.1rem; // Smaller icons
+      }
+      
+      span:not(.icon) {
+        font-weight: 500;
+        margin-top: -2px;
+      }
+    }
+
+    &:hover {
+      color: var(--novita-blue) !important;
+      
+      .icon {
+        color: var(--novita-blue) !important;
+      }
+    }
+
+    &.is-active {
+      color: var(--novita-blue) !important;
+      
+      .icon {
+        color: var(--novita-blue) !important;
+      }
+      
+      @media screen and (min-width: 1024px) {
+        position: relative;
+        &::after {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 1.25rem;
+          right: 1.25rem;
+          height: 2px;
+          background-color: var(--novita-blue);
+        }
+      }
+      
+      @media screen and (max-width: 1023px) {
+        background: rgba(var(--novita-blue-rgb), 0.08) !important;
+      }
+    }
+  }
+}
+
+// Стилізація нового вибору мови
+.lang-picker-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.lang-trigger-btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  
+  &:hover {
+    color: var(--novita-blue) !important;
+  }
+}
+
+.lang-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2000;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease;
+
+  &.is-open {
+    opacity: 1;
+    visibility: visible;
+    
+    .lang-modal-container {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+}
+
+.lang-modal-container {
+  position: absolute;
+  top: 4rem; // Відступ від верхнього краю хедера
+  right: 1rem;
+  width: 240px;
+  background: rgba(255, 255, 255, 0.95) !important; // Більш щільний фон
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  box-shadow: var(--glass-shadow);
+  transform: translateY(-10px);
+  opacity: 0;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+  padding: 0.5rem;
+
+  // Адаптація для темної теми
+  :host-context(body.dark-mode) & {
+    background: rgba(30, 30, 30, 0.95) !important;
+  }
+
+  @media screen and (max-width: 1023px) {
+    top: 3.2rem; // Менший відступ для мобільного хедера
+    right: 0.5rem;
+    width: 200px;
+  }
+}
+
+.lang-modal-header {
+  display: none; // Прибираємо заголовок модалки
+}
+
+.lang-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.lang-option-btn {
+  width: 100%;
+  border: none;
+  background: transparent;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-weight: 500;
+  font-size: 1rem;
+
+  &:hover {
+    background: rgba(var(--novita-blue-rgb), 0.05);
     color: var(--novita-blue) !important;
   }
 
-  .navbar-link {
-    &::after {
-      border-color: var(--novita-blue) !important; // Колір стрілочки
-    }
+  &.is-active {
+    background: rgba(var(--novita-blue-rgb), 0.1);
+    color: var(--novita-blue) !important;
+    font-weight: 700;
     
-    &:hover {
-      background-color: rgba(255, 255, 255, 0.2) !important;
+    .lang-label {
+      color: var(--novita-blue);
     }
   }
-}
 
-.navbar-dropdown {
-  &.glass-navbar {
-    background: rgba(255, 255, 255, 0.8) !important; // Трохи щільніший фон для читабельності
-    backdrop-filter: blur(10px);
-    border: 1px solid var(--glass-border);
-    border-radius: 12px;
-    box-shadow: var(--glass-shadow);
-    padding: 0.5rem 0;
-    
-    .navbar-item {
-      color: var(--text-primary) !important;
-      background-color: transparent !important; // Прибираємо стандартний фон Bulma
-      transition: all 0.2s ease;
-      
-      &:hover {
-        background-color: rgba(var(--novita-blue-rgb), 0.1) !important; // Легкий блакитний фон при наведенні
-        color: var(--novita-blue) !important;
-      }
-      
-      &.is-active {
-        background-color: rgba(var(--novita-blue-rgb), 0.1) !important;
-        color: var(--novita-blue) !important;
-        font-weight: bold;
-      }
-    }
+  .lang-label {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--text-secondary);
+    background: rgba(var(--novita-blue-rgb), 0.05);
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-right: 0.5rem;
   }
-}
 
-.navbar-brand .title {
-  letter-spacing: 2px;
+  .check-icon {
+    color: var(--novita-blue);
+  }
 }

@@ -6,28 +6,28 @@
     "CONTACTS": "Contacts"
   },
   "FOOTER": {
-    "DESCRIPTION": "Des soins professionnels pour votre routine quotidienne. Nous allions qualité, innovation et soin de votre peau.",
+    "DESCRIPTION": "Soins professionnels de la peau pour votre routine quotidienne. Nous combinons qualité, innovation et soin pour votre peau.",
     "QUICK_LINKS": "Liens rapides",
     "FOLLOW_US": "Suivez-nous",
     "RIGHTS_RESERVED": "Tous droits réservés."
   },
   "HOME": {
     "HERO_TITLE": "Prenez soin de votre peau <br>avec Novita",
-    "HERO_SUBTITLE": "Des solutions de soins professionnelles pour chaque étape de votre routine quotidienne. Nettoyage, tonification et protection.",
+    "HERO_SUBTITLE": "Solutions professionnelles de soins de la peau pour chaque étape de votre routine quotidienne. Nettoyage, tonification et protection.",
     "HERO_BUTTON_PRODUCTS": "Voir les produits",
-    "HERO_BUTTON_INSTA": "Nous suivre sur Instagram",
+    "HERO_BUTTON_INSTA": "Suivre sur Instagram",
     "OUR_PRODUCTS_TITLE": "Nos produits",
     "WHY_CHOOSE_TITLE": "Pourquoi choisir Novita ?",
-    "WHY_CHOOSE_LI1_TITLE": "Effet Anti-Pollution :",
+    "WHY_CHOOSE_LI1_TITLE": "Effet anti-pollution :",
     "WHY_CHOOSE_LI1_TEXT": " Nos produits sont conçus pour protéger votre peau des facteurs environnementaux et assurer un nettoyage en profondeur.",
     "WHY_CHOOSE_LI2_TITLE": "Prébiotique Biolin :",
-    "WHY_CHOOSE_LI2_TEXT": " Une gamme spéciale d'hygiène intime avec des prébiotiques pour soutenir votre équilibre naturel.",
-    "WHY_CHOOSE_LI3_TITLE": "Matières naturelles :",
-    "WHY_CHOOSE_LI3_TEXT": " 100% coton naturel pour nos cotons et bâtonnets, assurant le toucher le plus doux.",
-    "WHY_CHOOSE_LI4_TITLE": "Soin complet :",
+    "WHY_CHOOSE_LI2_TEXT": " Ligne d'hygiène intime spéciale avec prébiotiques pour soutenir votre équilibre naturel.",
+    "WHY_CHOOSE_LI3_TITLE": "Matériaux naturels :",
+    "WHY_CHOOSE_LI3_TEXT": " Coton 100% naturel pour nos disques et bâtonnets, assurant le toucher le plus doux.",
+    "WHY_CHOOSE_LI4_TITLE": "Soins complexes :",
     "WHY_CHOOSE_LI4_TEXT": " Nous proposons des solutions pour chaque étape : démaquillage, nettoyage et tonification.",
     "INSTA_TITLE": "Suivez-nous sur Instagram",
-    "INSTA_SUBTITLE": "Rejoignez notre communauté pour rester au courant des dernières nouvelles et conseils beauté."
+    "INSTA_SUBTITLE": "Rejoignez notre communauté pour rester informé des dernières nouvelles et conseils beauté."
   },
   "ABOUT": {
     "HERO_TITLE": "Novita : Philosophie du soin",
@@ -35,7 +35,7 @@
     "PILLAR1_TITLE": "Protection anti-pollution",
     "PILLAR1_TEXT": "Une série unique de produits développés pour les citadins. Nettoie les pores en profondeur et crée une barrière invisible contre les toxines et le smog.",
     "PILLAR2_TITLE": "Coton naturel",
-    "PILLAR2_TEXT": "Nous utilisons uniquement du coton 100% naturel de haute qualité. Nos cotons et bâtonnets offrent le toucher le plus doux sans causer d'irritation.",
+    "PILLAR2_TEXT": "Nous utilisons uniquement du coton de haute qualité 100% naturel. Nos disques et bâtonnets offrent le toucher le plus doux sans causer d'irritation.",
     "PILLAR3_TITLE": "Prébiotique Biolin",
     "PILLAR3_TEXT": "Une ligne innovante d'hygiène intime qui soutient le microbiome naturel de la peau, offrant une sensation durable de fraîcheur et de confort.",
     "BRAND_TITLE": "À propos de la marque",
@@ -45,13 +45,13 @@
   },
   "CONTACTS": {
     "TITLE": "Contactez-nous",
-    "SUBTITLE": "Nos Contacts",
+    "SUBTITLE": "Nos contacts",
     "DESCRIPTION": "Nous sommes toujours ouverts à la communication, aux suggestions et aux questions sur la qualité des produits.",
-    "OFFICE": "Siège social (Corporation Biosphère) :",
+    "OFFICE": "Siège social (Biosphere Corporation) :",
     "ADDRESS": "37 Zaporizke Shose, Dnipro, 49040, Ukraine",
     "HOTLINE": "Ligne directe :",
     "FREE_UKRAINE": "(gratuit en Ukraine)",
-    "SOCIAL_NETWORKS": "Réseaux Sociaux :",
+    "SOCIAL_NETWORKS": "Réseaux sociaux :",
     "SAFETY_NOTE": "Nous nous soucions de votre sécurité et de la qualité de chaque produit. Vos commentaires nous aident à nous améliorer.",
     "FIND_US": "Où nous trouver"
   },
@@ -64,6 +64,181 @@
       "WIPES": "Lingettes humides",
       "MAKEUP": "Démaquillage",
       "INTIMATE": "Hygiène intime"
+    },
+    "P1": {
+      "NAME": "Bâtonnets de coton Novita Gapchinska en pot rond, 200 pcs",
+      "DESCRIPTION": "Bâtonnets de coton dans un pot élégant avec un design exclusif d'Eugenia Gapchinska.",
+      "F1": "Emballage de designer",
+      "F2": "Pot pratique",
+      "F3": "Haute qualité"
+    },
+    "P2": {
+      "NAME": "Disques de coton cosmétiques NOVITA Organic, 120 pcs",
+      "DESCRIPTION": "Disques de coton biologique pour le soin le plus doux de votre peau.",
+      "F1": "Coton biologique",
+      "F2": "Produit écologique",
+      "F3": "Pour peaux sensibles"
+    },
+    "P3": {
+      "NAME": "Bâtonnets de coton Novita Professional, 200 pcs",
+      "DESCRIPTION": "Bâtonnets de coton professionnels pour un usage quotidien et les procédures cosmétiques.",
+      "F1": "Tige solide",
+      "F2": "Coton doux",
+      "F3": "Série professionnelle"
+    },
+    "P4": {
+      "NAME": "Disques de coton cosmétiques NOVITA Delicate, 50 pcs",
+      "DESCRIPTION": "Emballage compact de disques de coton pour le voyage et les soins quotidiens.",
+      "F1": "Coton 100% naturel",
+      "F2": "Bord cousu",
+      "F3": "Ne laisse pas de peluches"
+    },
+    "P5": {
+      "NAME": "Disques de coton cosmétiques NOVITA Delicate, 100 pcs",
+      "DESCRIPTION": "Emballage classique de disques de coton pour un nettoyage délicat de la peau.",
+      "F1": "Coton 100% naturel",
+      "F2": "Texture douce",
+      "F3": "Nettoyage efficace"
+    },
+    "P6": {
+      "NAME": "Disques de coton cosmétiques NOVITA Delicate, 120 pcs",
+      "DESCRIPTION": "Emballage économique de disques de coton Delicate.",
+      "F1": "Grand pack",
+      "F2": "Double effet",
+      "F3": "Hypoallergénique"
+    },
+    "P7": {
+      "NAME": "Disques de coton cosmétiques NOVITA Soft, 100 pcs",
+      "DESCRIPTION": "Disques de coton extra doux pour les peaux les plus sensibles.",
+      "F1": "Effet Soft",
+      "F2": "Soin doux",
+      "F3": "Composition naturelle"
+    },
+    "P8": {
+      "NAME": "Disques de coton cosmétiques NOVITA Soft, 120 pcs",
+      "DESCRIPTION": "Disques de coton doux en grand pack.",
+      "F1": "120 pièces",
+      "F2": "Douceur maximale",
+      "F3": "Pour toute la famille"
+    },
+    "P9": {
+      "NAME": "Disques de coton cosmétiques NOVITA Organic, 80 pcs",
+      "DESCRIPTION": "Série biologique de disques de coton pour les consommateurs soucieux de l'environnement.",
+      "F1": "Biodégradable",
+      "F2": "Sans chlore",
+      "F3": "Coton biologique"
+    },
+    "P10": {
+      "NAME": "Disques de coton cosmétiques NOVITA Organic, 120 pcs",
+      "DESCRIPTION": "Emballage maximal de disques biologiques.",
+      "F1": "Eco-emballage",
+      "F2": "Haute qualité",
+      "F3": "Délicatesse"
+    },
+    "P11": {
+      "NAME": "Disques de coton cosmétiques NOVITA Gapchinska, 100 pcs",
+      "DESCRIPTION": "Disques de coton avec un design d'auteur par Gapchinska.",
+      "F1": "Design artistique",
+      "F2": "Série de collection",
+      "F3": "100% coton"
+    },
+    "P12": {
+      "NAME": "Disques de coton cosmétiques NOVITA Gapchinska, 120 pcs",
+      "DESCRIPTION": "Disques de coton stylés en grand pack.",
+      "F1": "Design éclatant",
+      "F2": "Qualité Novita",
+      "F3": "120 disques"
+    },
+    "P13": {
+      "NAME": "Bâtonnets de coton NOVITA Delicate en sachet polyéthylène, 100 pcs",
+      "DESCRIPTION": "Bâtonnets de coton classiques pour l'hygiène.",
+      "F1": "Emballage pratique",
+      "F2": "Hygiénique",
+      "F3": "Coton naturel"
+    },
+    "P14": {
+      "NAME": "Bâtonnets de coton NOVITA Delicate en sachet polyéthylène, 200 pcs",
+      "DESCRIPTION": "Bâtonnets de coton Delicate en grand pack.",
+      "F1": "200 pièces",
+      "F2": "Tige solide",
+      "F3": "Embout doux"
+    },
+    "P15": {
+      "NAME": "Bâtonnets de coton NOVITA Delicate en boîte carrée, 300 pcs",
+      "DESCRIPTION": "Boîte pratique avec un grand nombre de bâtonnets de coton.",
+      "F1": "Deco Box",
+      "F2": "300 pièces",
+      "F3": "Utilisation prolongée"
+    },
+    "P16": {
+      "NAME": "Bâtonnets de coton NOVITA Soft en sachet polyéthylène, 160 pcs",
+      "DESCRIPTION": "Bâtonnets de coton doux de la série Soft.",
+      "F1": "Effet Soft",
+      "F2": "160 pièces",
+      "F3": "Sûr"
+    },
+    "P17": {
+      "NAME": "Bâtonnets de coton NOVITA Organic en sachet polyéthylène, 100 pcs",
+      "DESCRIPTION": "Bâtonnets de coton écologiques fabriqués à partir de coton biologique.",
+      "F1": "Coton biologique",
+      "F2": "Eco-emballage",
+      "F3": "100 pièces"
+    },
+    "P18": {
+      "NAME": "Bâtonnets de coton NOVITA Gapchinska en sachet polyéthylène, 100 pcs",
+      "DESCRIPTION": "Bâtonnets de coton Gapchinska en emballage souple.",
+      "F1": "Design d'auteur",
+      "F2": "Qualité Novita",
+      "F3": "Pratique"
+    },
+    "P19": {
+      "NAME": "Bâtonnets de coton NOVITA Gapchinska en sachet polyéthylène, 200 pcs",
+      "DESCRIPTION": "Grand pack de bâtonnets Gapchinska.",
+      "F1": "200 pièces",
+      "F2": "Série de designer",
+      "F3": "Coton doux"
+    },
+    "P20": {
+      "NAME": "Lingette humide Make up NOVITA à l'eau micellaire, 15 pcs",
+      "DESCRIPTION": "Lingettes pour démaquiller à l'eau micellaire et aux algues marines.",
+      "F1": "Eau micellaire",
+      "F2": "Algues marines",
+      "F3": "Effet hydratant"
+    },
+    "P21": {
+      "NAME": "Lingette humide Make up Delicate Novita Complexe d'huiles, 15 pcs",
+      "DESCRIPTION": "Lingettes délicates pour démaquiller avec un complexe d'huiles.",
+      "F1": "Complexe d'huiles",
+      "F2": "Nutrition",
+      "F3": "Nettoyage doux"
+    },
+    "P22": {
+      "NAME": "Lingette humide Intimate Novita Prébiotique Biolin, 15 pcs",
+      "DESCRIPTION": "Lingettes pour l'hygiène intime avec prébiotique Biolin.",
+      "F1": "Prébiotique Biolin",
+      "F2": "Équilibre de la microflore",
+      "F3": "Fraîcheur"
+    },
+    "P23": {
+      "NAME": "Lingette humide Intimate Soft Novita Complexe Amiderm, 15 pcs",
+      "DESCRIPTION": "Lingettes particulièrement douces pour l'hygiène intime.",
+      "F1": "Complexe Amiderm",
+      "F2": "Toucher doux",
+      "F3": "Hypoallergénique"
+    },
+    "P24": {
+      "NAME": "Lingette démaquillante NOVITA PROFESSIONAL, 15 pcs",
+      "DESCRIPTION": "Lingettes professionnelles avec phytocomplexe.",
+      "F1": "Phytocomplexe",
+      "F2": "Soin professionnel",
+      "F3": "Nettoyage en profondeur"
+    },
+    "P25": {
+      "NAME": "Lingette d'hygiène intime NOVITA PROFESSIONAL, 15 pcs",
+      "DESCRIPTION": "Lingettes professionnelles avec complexe végétal.",
+      "F1": "Complexe végétal",
+      "F2": "Protection",
+      "F3": "Pour un usage quotidien"
     }
   }
 }

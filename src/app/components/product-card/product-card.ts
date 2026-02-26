@@ -1,11 +1,12 @@
 import { Component, Input, HostListener, ElementRef, ViewChild } from '@angular/core';
 import { Product } from '../../models/product.model';
 import { CommonModule } from '@angular/common';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-product-card',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, TranslateModule],
   templateUrl: './product-card.html',
   styleUrl: './product-card.scss'
 })

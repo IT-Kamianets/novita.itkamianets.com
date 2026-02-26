@@ -64,6 +64,181 @@
       "WIPES": "Feuchttücher",
       "MAKEUP": "Make-up-Entfernung",
       "INTIMATE": "Intimpflege"
+    },
+    "P1": {
+      "NAME": "Novita Gapchinska Wattestäbchen im runden Tiegel, 200 Stk.",
+      "DESCRIPTION": "Wattestäbchen im stilvollen Tiegel mit exklusivem Design von Eugenia Gapchinska.",
+      "F1": "Designer-Verpackung",
+      "F2": "Praktischer Tiegel",
+      "F3": "Hohe Qualität"
+    },
+    "P2": {
+      "NAME": "NOVITA Organic Kosmetische Wattepads, 120 Stk.",
+      "DESCRIPTION": "Bio-Wattepads für die sanfteste Pflege Ihrer Haut.",
+      "F1": "Bio-Baumwolle",
+      "F2": "Umweltfreundliches Produkt",
+      "F3": "Für empfindliche Haut"
+    },
+    "P3": {
+      "NAME": "Novita Professional Wattestäbchen, 200 Stk.",
+      "DESCRIPTION": "Professionelle Wattestäbchen für den täglichen Gebrauch und kosmetische Eingriffe.",
+      "F1": "Starker Stock",
+      "F2": "Weiche Baumwolle",
+      "F3": "Professionelle Serie"
+    },
+    "P4": {
+      "NAME": "NOVITA Delicate Kosmetische Wattepads, 50 Stk.",
+      "DESCRIPTION": "Kompakte Verpackung von Wattepads für die Reise und die tägliche Pflege.",
+      "F1": "100 % natürliche Baumwolle",
+      "F2": "Genähter Rand",
+      "F3": "Hinterlässt keine Fusseln"
+    },
+    "P5": {
+      "NAME": "NOVITA Delicate Kosmetische Wattepads, 100 Stk.",
+      "DESCRIPTION": "Klassische Verpackung von Wattepads für eine sanfte Hautreinigung.",
+      "F1": "100 % natürliche Baumwolle",
+      "F2": "Weiche Textur",
+      "F3": "Effektive Reinigung"
+    },
+    "P6": {
+      "NAME": "NOVITA Delicate Kosmetische Wattepads, 120 Stk.",
+      "DESCRIPTION": "Sparpackung von Delicate Wattepads.",
+      "F1": "Großpackung",
+      "F2": "Doppelter Effekt",
+      "F3": "Hypoallergen"
+    },
+    "P7": {
+      "NAME": "NOVITA Soft Kosmetische Wattepads, 100 Stk.",
+      "DESCRIPTION": "Besonders weiche Wattepads für die empfindlichste Haut.",
+      "F1": "Soft-Effekt",
+      "F2": "Sanfte Pflege",
+      "F3": "Natürliche Zusammensetzung"
+    },
+    "P8": {
+      "NAME": "NOVITA Soft Kosmetische Wattepads, 120 Stk.",
+      "DESCRIPTION": "Weiche Wattepads in der Großpackung.",
+      "F1": "120 Stück",
+      "F2": "Maximale Weichheit",
+      "F3": "Für die ganze Familie"
+    },
+    "P9": {
+      "NAME": "NOVITA Organic Kosmetische Wattepads, 80 Stk.",
+      "DESCRIPTION": "Bio-Serie von Wattepads für umweltbewusste Verbraucher.",
+      "F1": "Biologisch abbaubar",
+      "F2": "Chlorfrei",
+      "F3": "Bio-Baumwolle"
+    },
+    "P10": {
+      "NAME": "NOVITA Organic Kosmetische Wattepads, 120 Stk.",
+      "DESCRIPTION": "Maximale Verpackung von Bio-Pads.",
+      "F1": "Öko-Verpackung",
+      "F2": "Hohe Qualität",
+      "F3": "Feingefühl"
+    },
+    "P11": {
+      "NAME": "NOVITA Gapchinska Kosmetische Wattepads, 100 Stk.",
+      "DESCRIPTION": "Wattepads mit Autoren-Design von Gapchinska.",
+      "F1": "Kunst-Design",
+      "F2": "Sammelserie",
+      "F3": "100 % Baumwolle"
+    },
+    "P12": {
+      "NAME": "NOVITA Gapchinska Kosmetische Wattepads, 120 Stk.",
+      "DESCRIPTION": "Stylische Wattepads in der Großpackung.",
+      "F1": "Helles Design",
+      "F2": "Novita-Qualität",
+      "F3": "120 Pads"
+    },
+    "P13": {
+      "NAME": "NOVITA Delicate Wattestäbchen im Polyethylenbeutel, 100 Stk.",
+      "DESCRIPTION": "Klassische Wattestäbchen für die Hygiene.",
+      "F1": "Praktische Packung",
+      "F2": "Hygienisch",
+      "F3": "Natürliche Watte"
+    },
+    "P14": {
+      "NAME": "NOVITA Delicate Wattestäbchen im Polyethylenbeutel, 200 Stk.",
+      "DESCRIPTION": "Delicate Wattestäbchen in der Großpackung.",
+      "F1": "200 Stück",
+      "F2": "Starker Stock",
+      "F3": "Weiche Spitze"
+    },
+    "P15": {
+      "NAME": "NOVITA Delicate Wattestäbchen im quadratischen Karton, 300 Stk.",
+      "DESCRIPTION": "Handlicher Karton mit einer großen Anzahl an Wattestäbchen.",
+      "F1": "Deko-Box",
+      "F2": "300 Stück",
+      "F3": "Lange Nutzungsdauer"
+    },
+    "P16": {
+      "NAME": "NOVITA Soft Wattestäbchen im Polyethylenbeutel, 160 Stk.",
+      "DESCRIPTION": "Weiche Wattestäbchen der Soft-Serie.",
+      "F1": "Soft-Effekt",
+      "F2": "160 Stück",
+      "F3": "Sicher"
+    },
+    "P17": {
+      "NAME": "NOVITA Organic Wattestäbchen im Polyethylenbeutel, 100 Stk.",
+      "DESCRIPTION": "Umweltfreundliche Wattestäbchen aus Bio-Baumwolle.",
+      "F1": "Bio-Baumwolle",
+      "F2": "Öko-Verpackung",
+      "F3": "100 Stück"
+    },
+    "P18": {
+      "NAME": "NOVITA Gapchinska Wattestäbchen im Polyethylenbeutel, 100 Stk.",
+      "DESCRIPTION": "Wattestäbchen Gapchinska in weicher Verpackung.",
+      "F1": "Autoren-Design",
+      "F2": "Novita-Qualität",
+      "F3": "Komfort"
+    },
+    "P19": {
+      "NAME": "NOVITA Gapchinska Wattestäbchen im Polyethylenbeutel, 200 Stk.",
+      "DESCRIPTION": "Großpackung mit Gapchinska-Buds.",
+      "F1": "200 Stück",
+      "F2": "Designer-Serie",
+      "F3": "Weiche Baumwolle"
+    },
+    "P20": {
+      "NAME": "NOVITA Make-up-Feuchttuch mit Mizellenwasser, 15 Stk.",
+      "DESCRIPTION": "Tücher zum Abschminken mit Mizellenwasser und Meeresalgen.",
+      "F1": "Mizellenwasser",
+      "F2": "Meeresalgen",
+      "F3": "Feuchtigkeitsspendender Effekt"
+    },
+    "P21": {
+      "NAME": "Novita Make up Delicate Feuchttuch-Öl-Komplex, 15 Stk.",
+      "DESCRIPTION": "Zarte Tücher zum Abschminken mit einem Ölkomplex.",
+      "F1": "Ölkomplex",
+      "F2": "Ernährung",
+      "F3": "Sanfte Reinigung"
+    },
+    "P22": {
+      "NAME": "Novita Intimes Feuchttuch Biolin Präbiotikum, 15 Stk.",
+      "DESCRIPTION": "Tücher für die Intimhygiene mit Biolin-Präbiotikum.",
+      "F1": "Biolin Präbiotikum",
+      "F2": "Microflora Balance",
+      "F3": "Frische"
+    },
+    "P23": {
+      "NAME": "Novita Intimes weiches Feuchttuch Amiderm Komplex, 15 Stk.",
+      "DESCRIPTION": "Besonders sanfte Tücher für die Intimhygiene.",
+      "F1": "Amiderm Komplex",
+      "F2": "Soft Touch",
+      "F3": "Hypoallergen"
+    },
+    "P24": {
+      "NAME": "NOVITA PROFESSIONAL Make-up-Entferner-Tuch, 15 Stk.",
+      "DESCRIPTION": "Professionelle Tücher mit Phytokomplex.",
+      "F1": "Phytokomplex",
+      "F2": "Professionelle Pflege",
+      "F3": "Tiefenreinigung"
+    },
+    "P25": {
+      "NAME": "NOVITA PROFESSIONAL Intimhygienetuch, 15 Stk.",
+      "DESCRIPTION": "Professionelle Tücher mit Kräuterkomplex.",
+      "F1": "Kräuterkomplex",
+      "F2": "Schutz",
+      "F3": "Für den täglichen Gebrauch"
     }
   }
 }

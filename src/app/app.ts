@@ -18,7 +18,19 @@ export class App {
     this.translate.addLangs(['uk', 'en', 'fr', 'it', 'de']);
     this.translate.setDefaultLang('uk');
 
-    const browserLang = this.translate.getBrowserLang();
-    this.translate.use(browserLang?.match(/uk|en|fr|it|de/) ? browserLang : 'uk');
+    let langToUse = 'uk';
+    if (typeof localStorage !== 'undefined') {
+      const savedLang = localStorage.getItem('lang');
+      if (savedLang && ['uk', 'en', 'fr', 'it', 'de'].includes(savedLang)) {
+        langToUse = savedLang;
+      } else {
+        const browserLang = this.translate.getBrowserLang();
+        if (browserLang?.match(/uk|en|fr|it|de/)) {
+          langToUse = browserLang;
+        }
+      }
+    }
+    
+    this.translate.use(langToUse);
   }
 }

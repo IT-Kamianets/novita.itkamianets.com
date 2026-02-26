@@ -5,7 +5,7 @@
     <div class="tabs is-centered is-toggle is-toggle-rounded glass-tabs">
       <ul>
         <li *ngFor="let cat of categories" [class.is-active]="selectedCategory === cat">
-          <a (click)="filterByCategory(cat)" class="glass-text">{{ categoryMapping[cat] | translate }}</a>
+          <a (click)="filterByCategory(cat)" class="glass-text">{{ getCategoryKey(cat) | translate }}</a>
         </li>
       </ul>
     </div>

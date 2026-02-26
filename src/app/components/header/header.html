@@ -1,75 +1,84 @@
-<nav class="navbar is-fixed-top glass-navbar" role="navigation" aria-label="main navigation">
-  <div class="container">
-    <div class="navbar-brand">
-      <a class="navbar-item" routerLink="/">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4XS3X2Rsm5kgrH6q2WsCi8iMNQqR9wDsRfg&s" alt="NOVITA" style="max-height: 3rem;">
-      </a>
+<div class="header-container">
+  <!-- Top Navbar (Fixed Top) -->
+  <nav class="navbar is-fixed-top glass-navbar top-nav" role="navigation" aria-label="main navigation">
+    <div class="container px-3 px-0-mobile">
+      <div class="navbar-top-row is-flex is-align-items-center is-justify-content-space-between w-100 px-3-mobile py-2-mobile">
+        <a class="navbar-item px-0" routerLink="/">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4XS3X2Rsm5kgrH6q2WsCi8iMNQqR9wDsRfg&s" alt="NOVITA" class="nav-logo">
+        </a>
 
-      <a role="button" class="navbar-burger" [class.is-active]="isMenuOpen" aria-label="menu" aria-expanded="false" (click)="toggleMenu()">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
-    </div>
-
-    <div class="navbar-menu" [class.is-active]="isMenuOpen">
-      <div class="navbar-start">
-        <a class="navbar-item glass-text" routerLink="/" routerLinkActive="is-active" [routerLinkActiveOptions]="{exact: true}">
-          {{ 'NAV.HOME' | translate }}
-        </a>
-        <a class="navbar-item glass-text" routerLink="/products" routerLinkActive="is-active">
-          {{ 'NAV.PRODUCTS' | translate }}
-        </a>
-        <a class="navbar-item glass-text" routerLink="/about" routerLinkActive="is-active">
-          {{ 'NAV.ABOUT' | translate }}
-        </a>
-        <a class="navbar-item glass-text" routerLink="/contacts" routerLinkActive="is-active">
-          {{ 'NAV.CONTACTS' | translate }}
-        </a>
-      </div>
-
-      <div class="navbar-end">
-        <div class="navbar-item">
-          <button class="button is-ghost glass-text p-2" (click)="toggleTheme()" [title]="isDarkMode ? 'Світла тема' : 'Темна тема'">
+        <div class="navbar-actions is-flex is-align-items-center">
+          <!-- Theme Switcher -->
+          <button class="button is-ghost glass-text px-2" (click)="toggleTheme()" [title]="isDarkMode ? 'Світла тема' : 'Темна тема'">
             <span class="icon">
               <i class="fas" [class.fa-sun]="isDarkMode" [class.fa-moon]="!isDarkMode"></i>
             </span>
           </button>
-        </div>
 
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link glass-text">
-            <span class="icon is-small mr-1"><i class="fas fa-globe"></i></span>
-            {{ currentLang.toUpperCase() }}
-          </a>
-
-          <div class="navbar-dropdown is-right is-boxed glass-navbar">
-            <a class="navbar-item" (click)="changeLanguage('uk')" [class.is-active]="currentLang === 'uk'">
-              Українська (UK)
-            </a>
-            <a class="navbar-item" (click)="changeLanguage('en')" [class.is-active]="currentLang === 'en'">
-              English (EN)
-            </a>
-            <a class="navbar-item" (click)="changeLanguage('fr')" [class.is-active]="currentLang === 'fr'">
-              Français (FR)
-            </a>
-            <a class="navbar-item" (click)="changeLanguage('it')" [class.is-active]="currentLang === 'it'">
-              Italiano (IT)
-            </a>
-            <a class="navbar-item" (click)="changeLanguage('de')" [class.is-active]="currentLang === 'de'">
-              Deutsch (DE)
-            </a>
+          <!-- Language Selection -->
+          <div class="lang-picker-wrapper">
+            <button class="button is-ghost glass-text lang-trigger-btn px-2" (click)="toggleLangMenu(); $event.stopPropagation()">
+              <span class="icon is-small mr-1"><i class="fas fa-globe"></i></span>
+              <span class="lang-code">{{ getCurrentLangLabel() }}</span>
+            </button>
+            
+            <!-- Lang Selection Modal / Overlay -->
+            <div class="lang-modal-overlay" [class.is-open]="isLangMenuOpen" (click)="isLangMenuOpen = false">
+              <div class="lang-modal-container glass-navbar" (click)="$event.stopPropagation()">
+                <div class="lang-modal-header is-hidden-tablet">
+                  <h3 class="title is-5 glass-text mb-0">Оберіть мову</h3>
+                  <button class="delete is-medium" (click)="isLangMenuOpen = false"></button>
+                </div>
+                <div class="lang-list">
+                  <button *ngFor="let lang of languages" 
+                          class="lang-option-btn glass-text" 
+                          [class.is-active]="currentLang === lang.code"
+                          (click)="changeLanguage(lang.code)">
+                    <span class="lang-name">{{ lang.name }}</span>
+                    <span class="lang-label ml-auto">{{ lang.label }}</span>
+                    <span class="icon is-small check-icon" *ngIf="currentLang === lang.code">
+                      <i class="fas fa-check"></i>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-
-        <div class="navbar-item">
-          <div class="buttons">
-            <a class="button glass-button-primary" href="https://www.instagram.com/novitaua/" target="_blank" title="Instagram">
+          
+          <!-- Desktop Social Icon -->
+          <div class="navbar-social is-hidden-mobile ml-4">
+            <a class="button glass-button-primary p-2" href="https://www.instagram.com/novitaua/" target="_blank" title="Instagram">
               <span class="icon"><i class="fab fa-instagram"></i></span>
             </a>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</nav>
+  </nav>
+
+  <!-- Bottom Navbar (Fixed Bottom on Mobile, Part of Top on Desktop) -->
+  <nav class="navbar bottom-nav glass-navbar" role="navigation" aria-label="bottom navigation" (click)="isLangMenuOpen = false">
+    <div class="container px-0">
+      <div class="navbar-bottom-row is-flex is-justify-content-center w-100">
+        <div class="navbar-links is-flex is-justify-content-space-around w-100-mobile">
+          <a class="navbar-item glass-text px-1-mobile" routerLink="/" routerLinkActive="is-active" [routerLinkActiveOptions]="{exact: true}">
+            <span class="icon is-hidden-desktop is-size-6 mb-1"><i class="fas fa-home"></i></span>
+            <span>{{ 'NAV.HOME' | translate }}</span>
+          </a>
+          <a class="navbar-item glass-text px-1-mobile" routerLink="/products" routerLinkActive="is-active">
+            <span class="icon is-hidden-desktop is-size-6 mb-1"><i class="fas fa-th-large"></i></span>
+            <span>{{ 'NAV.PRODUCTS' | translate }}</span>
+          </a>
+          <a class="navbar-item glass-text px-1-mobile" routerLink="/about" routerLinkActive="is-active">
+            <span class="icon is-hidden-desktop is-size-6 mb-1"><i class="fas fa-info-circle"></i></span>
+            <span>{{ 'NAV.ABOUT' | translate }}</span>
+          </a>
+          <a class="navbar-item glass-text px-1-mobile" routerLink="/contacts" routerLinkActive="is-active">
+            <span class="icon is-hidden-desktop is-size-6 mb-1"><i class="fas fa-envelope"></i></span>
+            <span>{{ 'NAV.CONTACTS' | translate }}</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
