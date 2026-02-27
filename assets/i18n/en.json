@@ -1,0 +1,245 @@
+{
+  "NAV": {
+    "HOME": "Home",
+    "PRODUCTS": "Products",
+    "ABOUT": "About Us",
+    "CONTACTS": "Contacts"
+  },
+  "FOOTER": {
+    "DESCRIPTION": "Professional skincare for your daily routine. We combine quality, innovation, and care for your skin.",
+    "QUICK_LINKS": "Quick Links",
+    "FOLLOW_US": "Follow Us",
+    "RIGHTS_RESERVED": "All rights reserved."
+  },
+  "HOME": {
+    "HERO_TITLE": "Take Care of Your Skin <br>with Novita",
+    "HERO_SUBTITLE": "Professional skincare solutions for every stage of your daily routine. Cleansing, toning, and protection.",
+    "HERO_BUTTON_PRODUCTS": "View Products",
+    "HERO_BUTTON_INSTA": "Follow on Instagram",
+    "OUR_PRODUCTS_TITLE": "Our Products",
+    "WHY_CHOOSE_TITLE": "Why Choose Novita?",
+    "WHY_CHOOSE_LI1_TITLE": "Anti-Pollution Effect:",
+    "WHY_CHOOSE_LI1_TEXT": " Our products are designed to protect your skin from environmental factors and provide deep cleansing.",
+    "WHY_CHOOSE_LI2_TITLE": "Biolin Prebiotic:",
+    "WHY_CHOOSE_LI2_TEXT": " Special intimate hygiene line with prebiotics to support your natural balance.",
+    "WHY_CHOOSE_LI3_TITLE": "Natural Materials:",
+    "WHY_CHOOSE_LI3_TEXT": " 100% natural cotton for our pads and buds, ensuring the softest touch.",
+    "WHY_CHOOSE_LI4_TITLE": "Complex Care:",
+    "WHY_CHOOSE_LI4_TEXT": " We offer solutions for every stage: makeup removal, cleansing, and toning.",
+    "INSTA_TITLE": "Follow us on <a href=\"https://www.instagram.com/novitaua/\" target=\"_blank\" class=\"has-text-novita-blue\">Instagram</a>",
+    "INSTA_SUBTITLE": "Join our community to stay updated on the latest news and beauty tips."
+  },
+  "ABOUT": {
+    "HERO_TITLE": "Novita: Philosophy of Care",
+    "HERO_SUBTITLE": "We create products that care for your natural beauty in today's world.",
+    "PILLAR1_TITLE": "Anti-pollution Protection",
+    "PILLAR1_TEXT": "A unique series of products developed for city dwellers. Deeply cleanses pores and creates an invisible barrier against toxins and smog.",
+    "PILLAR2_TITLE": "Natural Cotton",
+    "PILLAR2_TEXT": "We use only 100% natural high-quality cotton. Our pads and buds provide the gentlest touch without causing irritation.",
+    "PILLAR3_TITLE": "Biolin Prebiotic",
+    "PILLAR3_TEXT": "An innovative line of intimate hygiene that supports the skin's natural microbiome, providing a long-lasting feeling of freshness and comfort.",
+    "BRAND_TITLE": "About the Brand",
+    "BRAND_P1": "Novita is a premium brand of the Biosphere Corporation, embodying the idea of professional care at home.",
+    "BRAND_P2": "We understand the challenges your skin faces every day. That's why we invest in scientific research and choose only safe, eco-friendly materials.",
+    "BRAND_P3": "Our goal is to make daily beauty rituals as effective and pleasant as possible for every woman."
+  },
+  "CONTACTS": {
+    "TITLE": "Contact Us",
+    "SUBTITLE": "Our Contacts",
+    "DESCRIPTION": "We are always open to communication, suggestions, and questions about product quality.",
+    "OFFICE": "Central Office (Biosphere Corporation):",
+    "ADDRESS": "37 Zaporizke Shose, Dnipro, 49040, Ukraine",
+    "HOTLINE": "Hotline:",
+    "FREE_UKRAINE": "(free within Ukraine)",
+    "SOCIAL_NETWORKS": "Social Networks:",
+    "SAFETY_NOTE": "We care about your safety and the quality of every product. Your feedback helps us get better.",
+    "FIND_US": "Where to Find Us"
+  },
+  "PRODUCTS": {
+    "TITLE": "Our Products",
+    "NOT_FOUND": "No products found in this category.",
+    "FILTER_BY": "Filter by feature",
+    "CATEGORIES": {
+      "ALL": "All",
+      "COTTON": "Cotton Products",
+      "WIPES": "Wet Wipes",
+      "MAKEUP": "Makeup Removal",
+      "INTIMATE": "Intimate Hygiene"
+    },
+    "P1": {
+      "NAME": "Novita Gapchinska Cotton Buds in a Round Jar, 200 pcs",
+      "DESCRIPTION": "Cotton buds in a stylish jar with an exclusive design by Eugenia Gapchinska.",
+      "F1": "Designer Packaging",
+      "F2": "Convenient Jar",
+      "F3": "High Quality"
+    },
+    "P2": {
+      "NAME": "NOVITA Organic Cosmetic Cotton Pads, 120 pcs",
+      "DESCRIPTION": "Organic cotton pads for the most gentle care of your skin.",
+      "F1": "Organic Cotton",
+      "F2": "Eco-friendly Product",
+      "F3": "For Sensitive Skin"
+    },
+    "P3": {
+      "NAME": "Novita Professional Cotton Buds, 200 pcs",
+      "DESCRIPTION": "Professional cotton buds for daily use and cosmetic procedures.",
+      "F1": "Strong Stick",
+      "F2": "Soft Cotton",
+      "F3": "Professional Series"
+    },
+    "P4": {
+      "NAME": "NOVITA Delicate Cosmetic Cotton Pads, 50 pcs",
+      "DESCRIPTION": "Compact packaging of cotton pads for travel and daily care.",
+      "F1": "100% Natural Cotton",
+      "F2": "Stitched Edge",
+      "F3": "No Lint Left"
+    },
+    "P5": {
+      "NAME": "NOVITA Delicate Cosmetic Cotton Pads, 100 pcs",
+      "DESCRIPTION": "Classic packaging of cotton pads for delicate skin cleansing.",
+      "F1": "100% Natural Cotton",
+      "F2": "Soft Texture",
+      "F3": "Effective Cleansing"
+    },
+    "P6": {
+      "NAME": "NOVITA Delicate Cosmetic Cotton Pads, 120 pcs",
+      "DESCRIPTION": "Economy packaging of Delicate cotton pads.",
+      "F1": "Large Pack",
+      "F2": "Double Effect",
+      "F3": "Hypoallergenic"
+    },
+    "P7": {
+      "NAME": "NOVITA Soft Cosmetic Cotton Pads, 100 pcs",
+      "DESCRIPTION": "Extra soft cotton pads for the most sensitive skin.",
+      "F1": "Soft Effect",
+      "F2": "Gentle Care",
+      "F3": "Natural Composition"
+    },
+    "P8": {
+      "NAME": "NOVITA Soft Cosmetic Cotton Pads, 120 pcs",
+      "DESCRIPTION": "Soft cotton pads in a large pack.",
+      "F1": "120 Pieces",
+      "F2": "Maximum Softness",
+      "F3": "For the Whole Family"
+    },
+    "P9": {
+      "NAME": "NOVITA Organic Cosmetic Cotton Pads, 80 pcs",
+      "DESCRIPTION": "Organic series of cotton pads for eco-conscious consumers.",
+      "F1": "Biodegradable",
+      "F2": "Chlorine Free",
+      "F3": "Organic Cotton"
+    },
+    "P10": {
+      "NAME": "NOVITA Organic Cosmetic Cotton Pads, 120 pcs",
+      "DESCRIPTION": "Maximum packaging of organic pads.",
+      "F1": "Eco-packaging",
+      "F2": "High Quality",
+      "F3": "Delicacy"
+    },
+    "P11": {
+      "NAME": "NOVITA Gapchinska Cosmetic Cotton Pads, 100 pcs",
+      "DESCRIPTION": "Cotton pads with author's design by Gapchinska.",
+      "F1": "Art Design",
+      "F2": "Collectible Series",
+      "F3": "100% Cotton"
+    },
+    "P12": {
+      "NAME": "NOVITA Gapchinska Cosmetic Cotton Pads, 120 pcs",
+      "DESCRIPTION": "Stylish cotton pads in a large pack.",
+      "F1": "Bright Design",
+      "F2": "Novita Quality",
+      "F3": "120 Pads"
+    },
+    "P13": {
+      "NAME": "NOVITA Delicate Cotton Buds in Polyethylene Bag, 100 pcs",
+      "DESCRIPTION": "Classic cotton buds for hygiene.",
+      "F1": "Convenient Pack",
+      "F2": "Hygienic",
+      "F3": "Natural Cotton"
+    },
+    "P14": {
+      "NAME": "NOVITA Delicate Cotton Buds in Polyethylene Bag, 200 pcs",
+      "DESCRIPTION": "Delicate cotton buds in a large pack.",
+      "F1": "200 Pieces",
+      "F2": "Strong Stick",
+      "F3": "Soft Tip"
+    },
+    "P15": {
+      "NAME": "NOVITA Delicate Cotton Buds in Square Box, 300 pcs",
+      "DESCRIPTION": "Convenient box with a large number of cotton buds.",
+      "F1": "Deco Box",
+      "F2": "300 Pieces",
+      "F3": "Long Use"
+    },
+    "P16": {
+      "NAME": "NOVITA Soft Cotton Buds in Polyethylene Bag, 160 pcs",
+      "DESCRIPTION": "Soft cotton buds of the Soft series.",
+      "F1": "Soft-effect",
+      "F2": "160 Pieces",
+      "F3": "Safe"
+    },
+    "P17": {
+      "NAME": "NOVITA Organic Cotton Buds in Polyethylene Bag, 100 pcs",
+      "DESCRIPTION": "Eco-friendly cotton buds made from organic cotton.",
+      "F1": "Organic Cotton",
+      "F2": "Eco-packaging",
+      "F3": "100 Pieces"
+    },
+    "P18": {
+      "NAME": "NOVITA Gapchinska Cotton Buds in Polyethylene Bag, 100 pcs",
+      "DESCRIPTION": "Gapchinska cotton buds in soft packaging.",
+      "F1": "Author's Design",
+      "F2": "Novita Quality",
+      "F3": "Convenience"
+    },
+    "P19": {
+      "NAME": "NOVITA Gapchinska Cotton Buds in Polyethylene Bag, 200 pcs",
+      "DESCRIPTION": "Large pack of Gapchinska buds.",
+      "F1": "200 Pieces",
+      "F2": "Designer Series",
+      "F3": "Soft Cotton"
+    },
+    "P20": {
+      "NAME": "NOVITA Make up Wet Wipe with Micellar Water, 15 pcs",
+      "DESCRIPTION": "Wipes for removing makeup with micellar water and seaweed.",
+      "F1": "Micellar Water",
+      "F2": "Seaweed",
+      "F3": "Moisturizing Effect"
+    },
+    "P21": {
+      "NAME": "Novita Make up Delicate Wet Wipe Oil Complex, 15 pcs",
+      "DESCRIPTION": "Delicate wipes for removing makeup with a complex of oils.",
+      "F1": "Oil Complex",
+      "F2": "Nutrition",
+      "F3": "Gentle Cleansing"
+    },
+    "P22": {
+      "NAME": "Novita Intimate Wet Wipe Biolin Prebiotic, 15 pcs",
+      "DESCRIPTION": "Wipes for intimate hygiene with Biolin prebiotic.",
+      "F1": "Biolin Prebiotic",
+      "F2": "Microflora Balance",
+      "F3": "Freshness"
+    },
+    "P23": {
+      "NAME": "Novita Intimate Soft Wet Wipe Amiderm Complex, 15 pcs",
+      "DESCRIPTION": "Especially gentle wipes for intimate hygiene.",
+      "F1": "Amiderm Complex",
+      "F2": "Soft Touch",
+      "F3": "Hypoallergenic"
+    },
+    "P24": {
+      "NAME": "NOVITA PROFESSIONAL Makeup Remover Wipe, 15 pcs",
+      "DESCRIPTION": "Professional wipes with phytocomplex.",
+      "F1": "Phytocomplex",
+      "F2": "Professional Care",
+      "F3": "Deep Cleansing"
+    },
+    "P25": {
+      "NAME": "NOVITA PROFESSIONAL Intimate Hygiene Wipe, 15 pcs",
+      "DESCRIPTION": "Professional wipes with herbal complex.",
+      "F1": "Herbal Complex",
+      "F2": "Protection",
+      "F3": "For Daily Use"
+    }
+  }
+}
