@@ -1,24 +1,11 @@
 <section class="section contacts-section glass-section">
-  <div class="container">
+  <div class="container px-4-mobile">
     <h1 class="title is-1 glass-text has-text-centered mb-6">{{ 'CONTACTS.TITLE' | translate }}</h1>
 
     <div class="columns is-multiline is-centered">
-      <!-- Left Column: Map -->
-      <div class="column is-12-tablet is-6-desktop">
-        <div class="glass-card contact-map-container" style="padding: 0; overflow: hidden; border-radius: 20px; line-height: 0;">
-          <iframe 
-            src="https://www.google.com/maps?q=48.6847211,26.597681&hl=uk&z=17&output=embed" 
-            style="border:0; width: 100%; height: 100%; min-height: 350px;" 
-            allowfullscreen="" 
-            loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade">
-          </iframe>
-        </div>
-      </div>
-
-      <!-- Right Column: Contact Info -->
-      <div class="column is-12-tablet is-6-desktop">
-        <div class="glass-card p-5-mobile p-6-tablet contact-info-card" style="display: flex; flex-direction: column; justify-content: center;">
+      <!-- Left Column: Contact Info -->
+      <div class="column is-12-tablet is-6-desktop mb-5-mobile">
+        <div class="glass-card p-5 p-6-tablet contact-info-card" style="display: flex; flex-direction: column; justify-content: center; height: 100%;">
           <h2 class="title is-3 glass-text mb-5">{{ 'CONTACTS.SUBTITLE' | translate }}</h2>
           <p class="glass-text-secondary mb-5">{{ 'CONTACTS.DESCRIPTION' | translate }}</p>
           
@@ -55,6 +42,19 @@
           <div class="mt-5 p-4" style="background: rgba(var(--novita-blue-rgb), 0.05); border-radius: 12px; border-left: 4px solid var(--novita-blue);">
             <p class="is-size-7 glass-text-secondary" style="line-height: 1.4;">{{ 'CONTACTS.SAFETY_NOTE' | translate }}</p>
           </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Map -->
+      <div class="column is-12-tablet is-6-desktop">
+        <div class="glass-card contact-map-container" style="padding: 0; overflow: hidden; border-radius: 20px; line-height: 0; height: 100%;">
+          <iframe 
+            src="https://www.google.com/maps?q=48.6847211,26.597681&hl=uk&z=17&output=embed" 
+            style="border:0; width: 100%; height: 100%; min-height: 350px;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
         </div>
       </div>
     </div>
