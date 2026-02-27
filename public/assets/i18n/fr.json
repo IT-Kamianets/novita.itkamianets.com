@@ -26,7 +26,7 @@
     "WHY_CHOOSE_LI3_TEXT": " Coton 100% naturel pour nos disques et bâtonnets, assurant le toucher le plus doux.",
     "WHY_CHOOSE_LI4_TITLE": "Soins complexes :",
     "WHY_CHOOSE_LI4_TEXT": " Nous proposons des solutions pour chaque étape : démaquillage, nettoyage et tonification.",
-    "INSTA_TITLE": "Suivez-nous sur Instagram",
+    "INSTA_TITLE": "Suivez-nous sur <a href=\"https://www.instagram.com/novitaua/\" target=\"_blank\" class=\"has-text-novita-blue\">Instagram</a>",
     "INSTA_SUBTITLE": "Rejoignez notre communauté pour rester informé des dernières nouvelles et conseils beauté."
   },
   "ABOUT": {
@@ -57,7 +57,8 @@
   },
   "PRODUCTS": {
     "TITLE": "Nos produits",
-    "NOT_FOUND": "Aucun produit trouvé dans cette catégorie.",
+    "NOT_FOUND": "Aucun produit trouvé dans cette categoria.",
+    "FILTER_BY": "Filtrer par caractéristique",
     "CATEGORIES": {
       "ALL": "Tous",
       "COTTON": "Produits en coton",

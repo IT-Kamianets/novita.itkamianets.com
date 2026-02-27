@@ -1,0 +1,19 @@
+.active-filter-tag {
+  display: inline-block;
+  
+  .tag {
+    border-radius: 20px;
+    background: rgba(var(--novita-blue-rgb), 0.1) !important;
+    border: 1px solid var(--novita-blue);
+    padding: 1.25rem 1rem;
+    
+    .delete {
+      margin-left: 0.75rem;
+      background-color: var(--novita-blue);
+      
+      &:hover {
+        background-color: #005bb5;
+      }
+    }
+  }
+}

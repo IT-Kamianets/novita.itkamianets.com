@@ -1,4 +1,4 @@
-import { Component, Input, HostListener, ElementRef, ViewChild } from '@angular/core';
+import { Component, Input, HostListener, ElementRef, ViewChild, Output, EventEmitter } from '@angular/core';
 import { Product } from '../../models/product.model';
 import { CommonModule } from '@angular/common';
 import { TranslateModule } from '@ngx-translate/core';
@@ -12,7 +12,13 @@ import { TranslateModule } from '@ngx-translate/core';
 })
 export class ProductCardComponent {
   @Input({ required: true }) product!: Product;
+  @Output() featureClick = new EventEmitter<string>();
   @ViewChild('card') cardElement!: ElementRef;
+
+  onFeatureClick(event: Event, feature: string) {
+    event.stopPropagation();
+    this.featureClick.emit(feature);
+  }
 
   onMouseMove(event: MouseEvent) {
     if (!this.cardElement) return;

@@ -10,9 +10,19 @@
       </ul>
     </div>
 
+    <!-- Active Feature Filter Display -->
+    <div *ngIf="selectedFeature" class="has-text-centered mb-5">
+      <div class="active-filter-tag">
+        <span class="tag is-info is-light is-medium glass-text">
+          {{ 'PRODUCTS.FILTER_BY' | translate }}: {{ selectedFeature | translate }}
+          <button class="delete is-small" (click)="clearFeatureFilter()"></button>
+        </span>
+      </div>
+    </div>
+
     <div class="columns is-multiline mt-5">
       <div class="column is-2" *ngFor="let product of filteredProducts">
-        <app-product-card [product]="product"></app-product-card>
+        <app-product-card [product]="product" (featureClick)="filterByFeature($event)"></app-product-card>
       </div>
     </div>
 

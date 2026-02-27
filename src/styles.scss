@@ -154,7 +154,7 @@ body {
 }
 
 .main-content {
-  padding-top: 7rem; // Height of top + bottom desktop nav
+  padding-top: 4.5rem; // Height of top desktop nav
   min-height: 100vh;
 
   @media screen and (max-width: 1023px) {
@@ -268,4 +268,14 @@ body {
 
 .has-background-novita-blue {
   background-color: var(--novita-blue) !important;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.w-100-mobile {
+  @media screen and (max-width: 1023px) {
+    width: 100% !important;
+  }
 }

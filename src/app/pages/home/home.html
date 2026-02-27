@@ -1,4 +1,4 @@
-<section class="hero is-medium glass-hero">
+<section class="hero is-small glass-hero">
   <div class="hero-body">
     <div class="container">
       <div class="columns is-vcentered">
@@ -18,7 +18,7 @@
           </div>
         </div>
         <div class="column is-6 has-text-centered">
-          <img src="https://novita.ua/data/product/card/_max_160x285/e1eddcc8/5fef938a3f7746db971de408caf6ea5c_1209x1379.png" alt="Novita Products" class="floating-image" style="max-height: 500px; width: auto;">
+          <img src="https://novita.ua/data/product/card/_max_160x285/e1eddcc8/5fef938a3f7746db971de408caf6ea5c_1209x1379.png" alt="Novita Products" class="floating-image" style="max-height: 400px; width: auto;">
         </div>
       </div>
     </div>
@@ -67,13 +67,9 @@
 
 <section class="section glass-section">
   <div class="container has-text-centered">
-    <h2 class="title is-3 mb-5 glass-text">{{ 'HOME.INSTA_TITLE' | translate }}</h2>
+    <h2 class="title is-3 mb-5 glass-text" [innerHTML]="'HOME.INSTA_TITLE' | translate"></h2>
     <p class="subtitle glass-text-secondary mb-6">{{ 'HOME.INSTA_SUBTITLE' | translate }}</p>
     
     <app-instagram-feed></app-instagram-feed>
-
-    <a href="https://www.instagram.com/novitaua/" class="button glass-button-primary is-large mt-6" target="_blank">
-      @novitaua
-    </a>
   </div>
 </section>

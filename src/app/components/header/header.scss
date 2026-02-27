@@ -73,6 +73,22 @@
   align-items: center;
   height: 100%;
   
+  &.desktop-links {
+    @media screen and (min-width: 1024px) {
+      .navbar-item {
+        flex-direction: row;
+        padding: 0.5rem 1rem;
+        text-transform: none;
+        font-weight: 500;
+        
+        &.is-active::after {
+          left: 1rem;
+          right: 1rem;
+        }
+      }
+    }
+  }
+
   .navbar-item {
     font-size: 0.9rem;
     font-weight: 600;
@@ -183,30 +199,47 @@
 
 .lang-modal-container {
   position: absolute;
-  top: 4rem; // Відступ від верхнього краю хедера
-  right: 1rem;
+  top: 100%; // Прямо під кнопкою
+  right: 0; // Вирівнювання по правому краю батьківського елемента (lang-picker-wrapper)
   width: 240px;
-  background: rgba(255, 255, 255, 0.95) !important; // Більш щільний фон
+  background: rgba(255, 255, 255, 0.95) !important;
   backdrop-filter: blur(25px);
   -webkit-backdrop-filter: blur(25px);
   border: 1px solid var(--glass-border);
   border-radius: 16px;
   box-shadow: var(--glass-shadow);
-  transform: translateY(-10px);
+  transform: translateY(10px); // Невеликий відступ від кнопки
   opacity: 0;
   transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   overflow: hidden;
   padding: 0.5rem;
 
-  // Адаптація для темної теми
-  :host-context(body.dark-mode) & {
-    background: rgba(30, 30, 30, 0.95) !important;
-  }
-
   @media screen and (max-width: 1023px) {
-    top: 3.2rem; // Менший відступ для мобільного хедера
-    right: 0.5rem;
+    top: calc(100% + 5px);
+    right: 0;
     width: 200px;
+  }
+}
+
+.navbar-social {
+  display: flex;
+  align-items: center;
+  
+  .button.glass-button-primary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    padding: 0 !important;
+    min-width: unset;
+    
+    .icon {
+      margin: 0;
+      width: auto;
+      height: auto;
+      font-size: 1.25rem;
+    }
   }
 }
 

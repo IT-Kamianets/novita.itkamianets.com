@@ -26,7 +26,7 @@
     "WHY_CHOOSE_LI3_TEXT": " 100 % natürliche Baumwolle für unsere Pads und Stäbchen, die für ein sanftes Gefühl sorgt.",
     "WHY_CHOOSE_LI4_TITLE": "Umfassende Pflege:",
     "WHY_CHOOSE_LI4_TEXT": " Wir bieten Lösungen für jede Phase: Make-up-Entfernung, Reinigung und Tonisierung.",
-    "INSTA_TITLE": "Folgen Sie uns auf Instagram",
+    "INSTA_TITLE": "Folgen Sie uns auf <a href=\"https://www.instagram.com/novitaua/\" target=\"_blank\" class=\"has-text-novita-blue\">Instagram</a>",
     "INSTA_SUBTITLE": "Treten Sie unserer Community bei, um über die neuesten Nachrichten und Schönheitstipps auf dem Laufenden zu bleiben."
   },
   "ABOUT": {
@@ -58,6 +58,7 @@
   "PRODUCTS": {
     "TITLE": "Unsere Produkte",
     "NOT_FOUND": "Keine Produkte in dieser Kategorie gefunden.",
+    "FILTER_BY": "Nach Merkmal filtern",
     "CATEGORIES": {
       "ALL": "Alle",
       "COTTON": "Baumwollprodukte",

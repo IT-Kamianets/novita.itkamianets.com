@@ -17,7 +17,12 @@
         {{ product.description | translate }}
         <br>
         <div class="tags mt-2">
-          <span *ngFor="let feature of product.features" class="tag is-white is-rounded is-small glass-text-secondary" style="border: 1px solid var(--glass-border); font-size: 0.7rem;">{{ feature | translate }}</span>
+          <span *ngFor="let feature of product.features" 
+                class="tag is-white is-rounded is-small glass-text-secondary feature-tag-interactive" 
+                style="pointer-events: auto !important; cursor: pointer !important; position: relative; z-index: 1000 !important; display: inline-flex !important;"
+                (click)="onFeatureClick($event, feature)">
+            {{ feature | translate }}
+          </span>
         </div>
       </div>
     </div>

@@ -2,12 +2,28 @@
   <!-- Top Navbar (Fixed Top) -->
   <nav class="navbar is-fixed-top glass-navbar top-nav" role="navigation" aria-label="main navigation">
     <div class="container px-3 px-0-mobile">
-      <div class="navbar-top-row is-flex is-align-items-center is-justify-content-space-between w-100 px-3-mobile py-2-mobile">
+      <div class="navbar-top-row is-flex is-align-items-center w-100 px-3-mobile py-2-mobile">
         <a class="navbar-item px-0" routerLink="/">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4XS3X2Rsm5kgrH6q2WsCi8iMNQqR9wDsRfg&s" alt="NOVITA" class="nav-logo">
         </a>
 
-        <div class="navbar-actions is-flex is-align-items-center">
+        <!-- Desktop Navigation Links -->
+        <div class="navbar-links desktop-links is-hidden-mobile ml-6 is-flex">
+          <a class="navbar-item glass-text" routerLink="/" routerLinkActive="is-active" [routerLinkActiveOptions]="{exact: true}">
+            <span>{{ 'NAV.HOME' | translate }}</span>
+          </a>
+          <a class="navbar-item glass-text" routerLink="/products" routerLinkActive="is-active">
+            <span>{{ 'NAV.PRODUCTS' | translate }}</span>
+          </a>
+          <a class="navbar-item glass-text" routerLink="/about" routerLinkActive="is-active">
+            <span>{{ 'NAV.ABOUT' | translate }}</span>
+          </a>
+          <a class="navbar-item glass-text" routerLink="/contacts" routerLinkActive="is-active">
+            <span>{{ 'NAV.CONTACTS' | translate }}</span>
+          </a>
+        </div>
+
+        <div class="navbar-actions is-flex is-align-items-center ml-auto">
           <!-- Theme Switcher -->
           <button class="button is-ghost glass-text px-2" (click)="toggleTheme()" [title]="isDarkMode ? 'Світла тема' : 'Темна тема'">
             <span class="icon">
@@ -25,10 +41,6 @@
             <!-- Lang Selection Modal / Overlay -->
             <div class="lang-modal-overlay" [class.is-open]="isLangMenuOpen" (click)="isLangMenuOpen = false">
               <div class="lang-modal-container glass-navbar" (click)="$event.stopPropagation()">
-                <div class="lang-modal-header is-hidden-tablet">
-                  <h3 class="title is-5 glass-text mb-0">Оберіть мову</h3>
-                  <button class="delete is-medium" (click)="isLangMenuOpen = false"></button>
-                </div>
                 <div class="lang-list">
                   <button *ngFor="let lang of languages" 
                           class="lang-option-btn glass-text" 
@@ -56,8 +68,8 @@
     </div>
   </nav>
 
-  <!-- Bottom Navbar (Fixed Bottom on Mobile, Part of Top on Desktop) -->
-  <nav class="navbar bottom-nav glass-navbar" role="navigation" aria-label="bottom navigation" (click)="isLangMenuOpen = false">
+  <!-- Bottom Navbar (Fixed Bottom on Mobile only) -->
+  <nav class="navbar bottom-nav glass-navbar is-hidden-tablet" role="navigation" aria-label="bottom navigation" (click)="isLangMenuOpen = false">
     <div class="container px-0">
       <div class="navbar-bottom-row is-flex is-justify-content-center w-100">
         <div class="navbar-links is-flex is-justify-content-space-around w-100-mobile">

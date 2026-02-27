@@ -26,7 +26,7 @@
     "WHY_CHOOSE_LI3_TEXT": " 100% cotone naturale per i nostri dischetti e bastoncini, garantendo il tocco più delicato.",
     "WHY_CHOOSE_LI4_TITLE": "Cura complessa:",
     "WHY_CHOOSE_LI4_TEXT": " Offriamo soluzioni per ogni fase: rimozione del trucco, pulizia e tonificazione.",
-    "INSTA_TITLE": "Seguici su Instagram",
+    "INSTA_TITLE": "Seguici su <a href=\"https://www.instagram.com/novitaua/\" target=\"_blank\" class=\"has-text-novita-blue\">Instagram</a>",
     "INSTA_SUBTITLE": "Unisciti alla nostra community per rimanere aggiornato sulle ultime novità e consigli di bellezza."
   },
   "ABOUT": {
@@ -58,6 +58,7 @@
   "PRODUCTS": {
     "TITLE": "I nostri prodotti",
     "NOT_FOUND": "Nessun prodotto trovato in questa categoria.",
+    "FILTER_BY": "Filtra per caratteristica",
     "CATEGORIES": {
       "ALL": "Tutti",
       "COTTON": "Prodotti in cotone",
